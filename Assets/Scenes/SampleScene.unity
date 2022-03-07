@@ -893,7 +893,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1319723887}
-  - component: {fileID: 1319723888}
   m_Layer: 0
   m_Name: Carreteras
   m_TagString: Untagged
@@ -928,32 +927,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1319723888
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319723886}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.15090215, y: -0.3849435}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 7.2134743, y: 12.393455}
-  m_EdgeRadius: 0
 --- !u!1 &1814903852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,6 +1320,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7245887858582423650, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245887858582423650, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245887858582423650, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
@@ -1364,7 +1345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145661, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.24
+      value: -2.03
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145661, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_LocalPosition.z
