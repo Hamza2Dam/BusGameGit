@@ -6,41 +6,59 @@ public class PlayerController : MonoBehaviour
 {
 
     Rigidbody2D rb;
-    private float limitesq = -1.5f;
-    private float limitdreta = 1.5f;
-    private float marge = 1.5f;
+    public Transform carril1;
+    public Transform carril2;
+    public Transform carril3;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); 
+        rb = GetComponent<Rigidbody2D>();
+        rb.transform.position = new Vector3(0, 0, 0);
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-    
+        Controls();
 
-        if (Input.GetKey(KeyCode.A)) 
+    }
+
+
+    private void Controls() 
+    {
+       
+
+        if (Input.GetKey(KeyCode.A) && rb.transform.position.x == carril2.transform.position.x)
         {
 
             // rb.AddForce(Vector2.left);
-           rb.transform.position = new Vector3(limitesq, -1, 0);
+            //rb.transform.position = new Vector3(limitesq, -1, 0);
+
+           rb.transform.position = new Vector3(carril1.transform.position.x, 0, 0);
+        
 
         }
-
-
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.A) && rb.transform.position.x == carril3.transform.position.x)
         {
 
-            // rb.AddForce(Vector2.right);
-            rb.transform.position = new Vector3(limitesq + marge , -1, 0);
+            rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
 
         }
+        else if (Input.GetKey(KeyCode.D) && rb.transform.position.x == carril2.transform.position.x)
+        {
 
-      
+            rb.transform.position = new Vector3(carril3.transform.position.x, 0, 0);
 
+        }
+        else if (Input.GetKey(KeyCode.D) && rb.transform.position.x == carril1.transform.position.x)
+        {
 
+            rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
+
+        }
 
 
     }
