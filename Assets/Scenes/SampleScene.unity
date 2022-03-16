@@ -361,6 +361,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1 &2049733309 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8402539423171994823, guid: 2bcb9f75010ce77488e3157e7a8d2528, type: 3}
+  m_PrefabInstance: {fileID: 8402539422484520212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2049733314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049733309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9a840253a2da045ad4998a9852db2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
 --- !u!1001 &8402539422484520212
 PrefabInstance:
   m_ObjectHideFlags: 0
