@@ -31,12 +31,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.W))
-        {
-
-            rb.AddForce(Vector2.up);
-
-        }
+      
 
 
     }
