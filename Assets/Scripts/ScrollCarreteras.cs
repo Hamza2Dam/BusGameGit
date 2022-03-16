@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BGScroll : MonoBehaviour
+public class ScrollCarreteras : MonoBehaviour
 
 {
     public float speed = 6f;
     private Vector3 StartPosition;
+    private int limitycr1 = -5;
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,7 @@ public class BGScroll : MonoBehaviour
     {
         transform.Translate(translation: Vector3.down*speed*Time.deltaTime);
 
-        if(transform.position.y < -5) 
+        if(transform.position.y < limitycr1) 
         {
 
             transform.position = StartPosition;
