@@ -22,38 +22,23 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Controls();
+      
 
     }
 
 
-    private void Controls() 
+   
+
+    public void Right() 
     {
-       
 
-        if (Input.GetKey(KeyCode.A) && rb.transform.position.x == carril2.transform.position.x)
-        {
-
-            // rb.AddForce(Vector2.left);
-            //rb.transform.position = new Vector3(limitesq, -1, 0);
-
-           rb.transform.position = new Vector3(carril1.transform.position.x, 0, 0);
-        
-
-        }
-        else if (Input.GetKey(KeyCode.A) && rb.transform.position.x == carril3.transform.position.x)
-        {
-
-            rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
-
-        }
-        else if (Input.GetKey(KeyCode.D) && rb.transform.position.x == carril2.transform.position.x)
+         if (rb.transform.position.x == carril2.transform.position.x)
         {
 
             rb.transform.position = new Vector3(carril3.transform.position.x, 0, 0);
 
         }
-        else if (Input.GetKey(KeyCode.D) && rb.transform.position.x == carril1.transform.position.x)
+        else if ( rb.transform.position.x == carril1.transform.position.x)
         {
 
             rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
@@ -62,4 +47,30 @@ public class PlayerController : MonoBehaviour
 
 
     }
+
+    public void Left()
+    {
+        if ( rb.transform.position.x == carril2.transform.position.x)
+        {
+
+            // rb.AddForce(Vector2.left);
+            //rb.transform.position = new Vector3(limitesq, -1, 0);
+
+            rb.transform.position = new Vector3(carril1.transform.position.x, 0, 0);
+
+
+        }
+        else if ( rb.transform.position.x == carril3.transform.position.x)
+        {
+
+            rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
+
+        }
+
+
+
+    }
+
+
+
 }
