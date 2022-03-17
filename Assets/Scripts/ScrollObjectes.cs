@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScrollObjectes : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 15f;
     private Vector3 StartPosition;
     private int limitycr1 = -5;
 
@@ -51,7 +52,7 @@ public class ScrollObjectes : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(translation: Vector3.down * speed * Time.deltaTime);
+        transform.Translate(translation: Vector3.down * speed *2 * Time.deltaTime);
 
         //if (transform.position.y < limitycr1)
         //{
@@ -59,4 +60,6 @@ public class ScrollObjectes : MonoBehaviour
         //    transform.position = StartPosition;
         //}
     }
+
+     
 }
