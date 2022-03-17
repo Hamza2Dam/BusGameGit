@@ -9,12 +9,16 @@ public class PlayerController : MonoBehaviour
     public Transform carril1;
     public Transform carril2;
     public Transform carril3;
+    public int ocupants;
+    public int maxocupants;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.transform.position = new Vector3(0, 0, 0);
+        ocupants = 0;
+        maxocupants = 30;
 
 
     }
