@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class ScrollObjectes : MonoBehaviour
 {
-    public float speed = 6f;
+    public float speed = 10f;
     private Vector3 StartPosition;
     private int limitycr1 = -5;
+
+    public Transform carril1;
+    public Transform carril2;
+    public Transform carril3;
 
     // each Egg would have a script like this:
 
@@ -18,13 +22,30 @@ public class ScrollObjectes : MonoBehaviour
     void Awake()
     {
     
-        Invoke("SpawnNext", 2f);
+        Invoke("SpawnNext", 1f);
     }
     void SpawnNext()
     {
-        float randomNumber = Random.Range(-2, 2);
+        float randomNumber = Random.Range(1, 3);
         GameObject FallingEggs = Instantiate(gameObject);
-        FallingEggs.transform.position = new Vector3(randomNumber, 4, 0);
+
+        if(randomNumber == 1) 
+        {
+
+            FallingEggs.transform.position = new Vector3(carril1.transform.position.x, 14, 0);
+        }
+        else if (randomNumber == 2) 
+        {
+            FallingEggs.transform.position = new Vector3(carril2.transform.position.x, 14, 0);
+
+        }
+
+        else if (randomNumber == 3)
+        {
+            FallingEggs.transform.position = new Vector3(carril3.transform.position.x, 14, 0);
+
+        }
+
     }
 
 

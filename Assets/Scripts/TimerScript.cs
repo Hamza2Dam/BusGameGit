@@ -7,7 +7,7 @@ public class TimerScript : MonoBehaviour
 {
     public Text contador;
     //public Text fin;
-    private float tiempo = 0f;
+    public float tiempo = 0f;
 
 
     // Start is called before the first frame update

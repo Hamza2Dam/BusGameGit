@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.transform.position = new Vector3(0, 0, 0);
+        //rb.transform.position = new Vector3(0, 0, 0);
         ocupants = 0;
         maxocupants = 30;
 

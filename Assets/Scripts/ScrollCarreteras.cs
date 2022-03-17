@@ -27,5 +27,8 @@ public class ScrollCarreteras : MonoBehaviour
 
             transform.position = StartPosition;
         }
+
+
+        //if(TimerScript)
     }
 }
