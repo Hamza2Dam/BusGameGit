@@ -27,7 +27,7 @@ public class ScrollObjectes : MonoBehaviour
     }
     void SpawnNext()
     {
-        float randomNumber = Random.Range(1, 3);
+        float randomNumber = Random.Range(1, 4);
         GameObject FallingEggs = Instantiate(gameObject);
 
         if(randomNumber == 1) 
