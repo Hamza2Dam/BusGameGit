@@ -17,12 +17,24 @@ public class MenuControler : MonoBehaviour
     {
 
     }
-
-    public void Exit2()
+    public void Play()
     {
-        //Application.Quit();
         SceneManager.LoadScene("SampleScene");
-            }
+    }
+    public void Shop()
+    {
+
+    }
+    public void Settings()
+    {
+
+    }
+    public void Exit()
+    {
+        Application.Quit();
+    }
+
+
 
 
 }
