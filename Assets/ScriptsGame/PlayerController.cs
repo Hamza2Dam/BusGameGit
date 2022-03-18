@@ -84,6 +84,11 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
             //Application.Quit();
         }
+        else if (other.gameObject.CompareTag("Limits")) // Si l'objecte amb el qual colisionem te un tag == "";
+        {
+            SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
+            //Application.Quit();
+        }
 
     }
 
