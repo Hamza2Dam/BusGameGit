@@ -5,15 +5,15 @@ using UnityEngine;
 public class ScrollCarreteras : MonoBehaviour
 
 {
-    public float speed = 6f;
-    private Vector3 StartPosition;
+    public float speed = 6f; // Velocitat del scroll
+    private Vector3 StartPosition; // Posició inicial 
     private int limitycr1 = -5;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        StartPosition = transform.position;
+        StartPosition = transform.position; // Posició Inicial
 
     }
 

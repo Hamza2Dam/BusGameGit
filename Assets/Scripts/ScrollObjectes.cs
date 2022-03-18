@@ -5,45 +5,45 @@ using UnityEngine;
 
 public class ScrollObjectes : MonoBehaviour
 {
-    public float speed = 15f;
-    private Vector3 StartPosition;
-    private int limitycr1 = -5;
+    public float speed = 15f; // Velocitat del scroll
+    private Vector3 StartPosition; // Poscio incial
 
-    public Transform carril1;
-    public Transform carril2;
-    public Transform carril3;
+
+    public Transform carril1; // Posicio del carril1 on agafarem la x
+    public Transform carril2;  
+    public Transform carril3;  
 
     // each Egg would have a script like this:
 
     void Start()
     {
-        StartPosition = transform.position;
+        StartPosition = transform.position; // Posició inicial del objecte (Primer objecte que se spawneja)
 
     }
     void Awake()
     {
     
-        Invoke("SpawnNext", 1f);
+        Invoke("SpawnNext", 1f); // Cada x temps (xf) cridarem a la funció SpawnNext per spawnejar un nou objecte
     }
     void SpawnNext()
     {
-        float randomNumber = Random.Range(1, 4);
-        GameObject FallingEggs = Instantiate(gameObject);
+        float randomNumber = Random.Range(1, 4); // Número random per escollir els carrils on spawnejar l'objecte de manera random
+        GameObject Object = Instantiate(gameObject); // Objecte a spawnejar (Instanciar)
 
-        if(randomNumber == 1) 
+        if(randomNumber == 1)  // Si el numero random == 1 spawneja l'objecte al carril1.
         {
 
-            FallingEggs.transform.position = new Vector3(carril1.transform.position.x, 14, 0);
+            Object.transform.position = new Vector3(carril1.transform.position.x, 14, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
         }
-        else if (randomNumber == 2) 
+        else if (randomNumber == 2)   
         {
-            FallingEggs.transform.position = new Vector3(carril2.transform.position.x, 14, 0);
+            Object.transform.position = new Vector3(carril2.transform.position.x, 14, 0);
 
         }
 
-        else if (randomNumber == 3)
+        else if (randomNumber == 3)  
         {
-            FallingEggs.transform.position = new Vector3(carril3.transform.position.x, 14, 0);
+            Object.transform.position = new Vector3(carril3.transform.position.x, 14, 0);
 
         }
 
@@ -52,7 +52,7 @@ public class ScrollObjectes : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(translation: Vector3.down * speed *2 * Time.deltaTime);
+        transform.Translate(translation: Vector3.down * speed *2 * Time.deltaTime); // Scroll del obejcte cap avall amb un speed
 
         //if (transform.position.y < limitycr1)
         //{
