@@ -6,20 +6,20 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
 
-    Rigidbody2D rb;
-    public Transform carril1;
+    Rigidbody2D rb; // Rigidbody de l'objecte
+    public Transform carril1; // Posicio del carril1 on agafarem la x
     public Transform carril2;
     public Transform carril3;
-    public int ocupants;
-    public int maxocupants;
+   // public int ocupants;
+   // public int maxocupants;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         //rb.transform.position = new Vector3(0, 0, 0);
-        ocupants = 0;
-        maxocupants = 30;
+        //ocupants = 0;
+        //maxocupants = 30;
 
 
     }
@@ -34,16 +34,16 @@ public class PlayerController : MonoBehaviour
 
    
 
-    public void Right() 
+    public void Right() // Girar a la dreta
     {
 
-         if (rb.transform.position.x == carril2.transform.position.x)
+         if (rb.transform.position.x == carril2.transform.position.x) // Si l'objecte está en el carril 2 (igualem les coordenades x) el pasem al carril3.x
         {
 
             rb.transform.position = new Vector3(carril3.transform.position.x, 0, 0);
 
         }
-        else if ( rb.transform.position.x == carril1.transform.position.x)
+        else if ( rb.transform.position.x == carril1.transform.position.x) // Si l'objecte está en el carril 1 (igualem les coordenades x) el pasem al carril2.x
         {
 
             rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void Left()
+    public void Left() // Girar a l'esquerra
     {
         if ( rb.transform.position.x == carril2.transform.position.x)
         {
@@ -76,12 +76,12 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other) // Colisió Trigger 
     {
 
-        if (other.gameObject.CompareTag("car"))
+        if (other.gameObject.CompareTag("car")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
             //Application.Quit();
         }
 
