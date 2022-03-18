@@ -33,17 +33,17 @@ public class ScrollObjectes : MonoBehaviour
         if(randomNumber == 1)  // Si el numero random == 1 spawneja l'objecte al carril1.
         {
 
-            Object.transform.position = new Vector3(carril1.transform.position.x, 14, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
+            Object.transform.position = new Vector3(carril1.transform.position.x, 40, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
         }
         else if (randomNumber == 2)   
         {
-            Object.transform.position = new Vector3(carril2.transform.position.x, 14, 0);
+            Object.transform.position = new Vector3(carril2.transform.position.x, 40, 0);
 
         }
 
         else if (randomNumber == 3)  
         {
-            Object.transform.position = new Vector3(carril3.transform.position.x, 14, 0);
+            Object.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
 
         }
 
