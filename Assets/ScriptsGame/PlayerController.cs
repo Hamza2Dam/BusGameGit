@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
     public Transform carril1; // Posicio del carril1 on agafarem la x
     public Transform carril2;
     public Transform carril3;
-   // public int ocupants;
-   // public int maxocupants;
+    // public int ocupants;
+    // public int maxocupants;
+
+    ScrollCotxe cotxe;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +49,7 @@ public class PlayerController : MonoBehaviour
         {
 
             rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
+            
 
         }
 
@@ -88,6 +91,11 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
             //Application.Quit();
+        }
+
+        else if (other.gameObject.CompareTag("SpawnCotxe")) // Si l'objecte amb el qual colisionem te un tag == "";
+        {
+            cotxe.CridarSpawn();
         }
 
     }

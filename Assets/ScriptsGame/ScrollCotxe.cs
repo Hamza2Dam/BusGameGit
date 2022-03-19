@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class ScrollObjectes : MonoBehaviour
+public class ScrollCotxe : MonoBehaviour
 {
     public float speed = 15f; // Velocitat del scroll
     private Vector3 StartPosition; // Poscio incial
@@ -11,7 +11,9 @@ public class ScrollObjectes : MonoBehaviour
 
     public Transform carril1; // Posicio del carril1 on agafarem la x
     public Transform carril2;  
-    public Transform carril3;  
+    public Transform carril3;
+
+   
 
     // each Egg would have a script like this:
 
@@ -20,9 +22,9 @@ public class ScrollObjectes : MonoBehaviour
         StartPosition = transform.position; // Posició inicial del objecte (Primer objecte que se spawneja)
 
     }
-    void Awake()
+    public void CridarSpawn()
     {
-    
+        
         Invoke("SpawnNext", 1f); // Cada x temps (xf) cridarem a la funció SpawnNext per spawnejar un nou objecte
     }
     void SpawnNext()
