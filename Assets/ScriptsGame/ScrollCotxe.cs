@@ -19,10 +19,10 @@ public class ScrollCotxe : MonoBehaviour
 
     void Start()
     {
-        StartPosition = transform.position; // Posició inicial del objecte (Primer objecte que se spawneja)
+        //StartPosition = transform.position; // Posició inicial del objecte (Primer objecte que se spawneja)
 
     }
-    public void CridarSpawn()
+    void Awake()
     {
         
         Invoke("SpawnNext", 1f); // Cada x temps (xf) cridarem a la funció SpawnNext per spawnejar un nou objecte

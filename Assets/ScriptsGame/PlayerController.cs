@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public Transform carril1; // Posicio del carril1 on agafarem la x
     public Transform carril2;
     public Transform carril3;
+    public GameObject redcar;
     // public int ocupants;
     // public int maxocupants;
 
@@ -95,7 +96,7 @@ public class PlayerController : MonoBehaviour
 
         else if (other.gameObject.CompareTag("SpawnCotxe")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
-            cotxe.CridarSpawn();
+            redcar.SetActive(true);
         }
 
     }

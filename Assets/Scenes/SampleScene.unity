@@ -351,6 +351,7 @@ MonoBehaviour:
   carril1: {fileID: 98773969}
   carril2: {fileID: 2040562976}
   carril3: {fileID: 1342392751}
+  redcar: {fileID: 1148867860}
 --- !u!1 &608829818
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +569,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1148867860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 224555408071234864, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
+  m_PrefabInstance: {fileID: 1445621695}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1200514565
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,7 +995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224555408071234864, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224555408071234865, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: carril1
@@ -1003,6 +1009,10 @@ PrefabInstance:
       propertyPath: carril3
       value: 
       objectReference: {fileID: 1342392751}
+    - target: {fileID: 224555408071234865, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224555408071234867, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1118,7 +1128,7 @@ GameObject:
   - component: {fileID: 1604548455}
   m_Layer: 0
   m_Name: SpawnActiver
-  m_TagString: Untagged
+  m_TagString: SpawnCotxe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6335,6 +6345,10 @@ PrefabInstance:
     - target: {fileID: 8854967254302145658, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145661, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_RootOrder
