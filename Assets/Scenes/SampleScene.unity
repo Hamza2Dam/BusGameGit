@@ -198,6 +198,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &163416852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1008963728101736102, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
+  m_PrefabInstance: {fileID: 8599756897751714946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &163416856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163416852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9a840253a2da045ad4998a9852db2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  carril1: {fileID: 98773969}
+  carril2: {fileID: 2040562976}
+  carril3: {fileID: 1342392751}
 --- !u!1 &303057848
 GameObject:
   m_ObjectHideFlags: 0
@@ -6322,10 +6343,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -2168132150518273769, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1008963728101736102, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_Name
       value: Oil can
@@ -6336,11 +6353,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.39
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.31
+      value: 4.75
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6408,24 +6425,8 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
-      propertyPath: m_Size.x
-      value: 1.1316512
-      objectReference: {fileID: 0}
-    - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
-      propertyPath: m_Size.y
-      value: 4.487658
-      objectReference: {fileID: 0}
-    - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_Enabled
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.027080894
-      objectReference: {fileID: 0}
-    - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.004241705
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145661, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_RootOrder
