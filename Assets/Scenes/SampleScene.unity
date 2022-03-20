@@ -199,6 +199,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &163416852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1008963728101736102, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
+  m_PrefabInstance: {fileID: 8599756897751714946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &163416856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163416852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9a840253a2da045ad4998a9852db2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  carril1: {fileID: 98773969}
+  carril2: {fileID: 2040562976}
+  carril3: {fileID: 1342392751}
 --- !u!1 &303057848
 GameObject:
   m_ObjectHideFlags: 0
@@ -2388,7 +2409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1792132684
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3770,7 +3791,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 7
-      m_TileSpriteIndex: 8
+      m_TileSpriteIndex: 17
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6119,8 +6140,8 @@ Tilemap:
   - first: {x: 0, y: 60, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 17
+      m_TileIndex: 8
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6479,8 +6500,8 @@ Tilemap:
   - first: {x: 0, y: 72, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 17
+      m_TileIndex: 8
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -7004,7 +7025,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 84de36267be39984c9a814945eca7741, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: de67a6b3886de014fb8270eb26daa032, type: 2}
-  - m_RefCount: 107
+  - m_RefCount: 109
     m_Data: {fileID: 11400000, guid: 5e4922863cc94e5499f12248edea79cf, type: 2}
   - m_RefCount: 12
     m_Data: {fileID: 11400000, guid: ba3c876d05358494ea50ac0b88b3e36e, type: 2}
@@ -7022,8 +7043,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: f915cc3bff585cf4aba345842a8c3525, type: 2}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: a4904e4b2a5c8c741b99b3f166e307c8, type: 2}
-  - m_RefCount: 2
-    m_Data: {fileID: 11400000, guid: f080b10e5f7aecc4bb1c6fde21c56b71, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 16
     m_Data: {fileID: 11400000, guid: ae7511a226f3e3842aafe41c5d375982, type: 2}
   - m_RefCount: 4
@@ -7049,12 +7070,12 @@ Tilemap:
     m_Data: {fileID: 8390295493294727922, guid: d9fd7b64010649a41bfdbdbdffaa7171, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 7659510173393406706, guid: d9fd7b64010649a41bfdbdbdffaa7171, type: 3}
-  - m_RefCount: 107
+  - m_RefCount: 109
     m_Data: {fileID: 21300000, guid: b8cd5590b04fe0541a3ee37073ebbfcf, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 6278274837897036544, guid: d9fd7b64010649a41bfdbdbdffaa7171, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 4349370185657103691, guid: d9fd7b64010649a41bfdbdbdffaa7171, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 4589022432324568844, guid: d9fd7b64010649a41bfdbdbdffaa7171, type: 3}
   - m_RefCount: 12
@@ -7071,8 +7092,8 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: dce3a5e7489f971499c573c4c013e239, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 4245115436719120985, guid: d9fd7b64010649a41bfdbdbdffaa7171, type: 3}
-  - m_RefCount: 2
-    m_Data: {fileID: 21300000, guid: a8bd5d9c07fad754d90c038017fba46f, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 4349370185657103691, guid: d9fd7b64010649a41bfdbdbdffaa7171, type: 3}
   - m_RefCount: 16
     m_Data: {fileID: 2417185382955533393, guid: 88b31629ede10fb479aad034f6453642, type: 3}
   - m_RefCount: 4
@@ -7460,7 +7481,10 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0c977c90bff1734e811e3119f64c486, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of eee952d (Revert "Error")
 --- !u!1001 &8599756897751714946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7468,10 +7492,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: -2168132150518273769, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of eee952d (Revert "Error")
     - target: {fileID: 1008963728101736102, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_Name
       value: Oil can
@@ -7482,11 +7509,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.31
+=======
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.75
+>>>>>>> parent of eee952d (Revert "Error")
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7522,7 +7557,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
+<<<<<<< HEAD
 >>>>>>> parent of bf5dcc0 (Update SampleScene.unity)
+=======
+>>>>>>> parent of eee952d (Revert "Error")
 --- !u!1001 &8854967254801787001
 PrefabInstance:
   m_ObjectHideFlags: 0
