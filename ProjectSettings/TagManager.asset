@@ -7,7 +7,6 @@ TagManager:
   - car
   - Limits
   - SpawnCotxe
-  - OilSpeed
   layers:
   - Default
   - TransparentFX

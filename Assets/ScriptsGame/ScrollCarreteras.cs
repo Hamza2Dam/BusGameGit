@@ -5,7 +5,7 @@ using UnityEngine;
 public class ScrollCarreteras : MonoBehaviour
 
 {
-    public  float speed = 6f; // Velocitat del scroll
+    public float speed = 6f; // Velocitat del scroll
     private Vector3 StartPosition; // Posició inicial 
     private int limitycr1 = -30; // Limit del fons (y) vertical
 
