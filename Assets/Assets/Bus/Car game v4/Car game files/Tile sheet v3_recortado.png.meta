@@ -1,0 +1,1905 @@
+fileFormatVersion: 2
+guid: d9fd7b64010649a41bfdbdbdffaa7171
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5289151045385600108
+    second: Tile sheet v3_recortado_0
+  - first:
+      213: 2877762800632941384
+    second: Tile sheet v3_recortado_1
+  - first:
+      213: 2213887187481073163
+    second: Tile sheet v3_recortado_2
+  - first:
+      213: 6489170655534436707
+    second: Tile sheet v3_recortado_3
+  - first:
+      213: -6615633898154695346
+    second: Tile sheet v3_recortado_4
+  - first:
+      213: 8418813849720853133
+    second: Tile sheet v3_recortado_5
+  - first:
+      213: 3236864815689169643
+    second: Tile sheet v3_recortado_6
+  - first:
+      213: 6483497431349275642
+    second: Tile sheet v3_recortado_7
+  - first:
+      213: 8656109736550218367
+    second: Tile sheet v3_recortado_8
+  - first:
+      213: 4245115436719120985
+    second: Tile sheet v3_recortado_9
+  - first:
+      213: -1590690098109595483
+    second: Tile sheet v3_recortado_10
+  - first:
+      213: 2865153032224832152
+    second: Tile sheet v3_recortado_11
+  - first:
+      213: 1202716587699203615
+    second: Tile sheet v3_recortado_12
+  - first:
+      213: -751329688438952675
+    second: Tile sheet v3_recortado_13
+  - first:
+      213: -2071944151110468770
+    second: Tile sheet v3_recortado_14
+  - first:
+      213: 2747875807454884669
+    second: Tile sheet v3_recortado_15
+  - first:
+      213: 1809885811257123019
+    second: Tile sheet v3_recortado_16
+  - first:
+      213: -1543413081330117042
+    second: Tile sheet v3_recortado_17
+  - first:
+      213: 7659510173393406706
+    second: Tile sheet v3_recortado_18
+  - first:
+      213: 4589022432324568844
+    second: Tile sheet v3_recortado_19
+  - first:
+      213: 4349370185657103691
+    second: Tile sheet v3_recortado_20
+  - first:
+      213: -5841686970772786234
+    second: Tile sheet v3_recortado_21
+  - first:
+      213: -1539640341166975212
+    second: Tile sheet v3_recortado_22
+  - first:
+      213: -6676070813560836188
+    second: Tile sheet v3_recortado_23
+  - first:
+      213: 6278274837897036544
+    second: Tile sheet v3_recortado_24
+  - first:
+      213: 1816794295822041014
+    second: Tile sheet v3_recortado_25
+  - first:
+      213: -3022287387282260442
+    second: Tile sheet v3_recortado_26
+  - first:
+      213: -7544004534639427282
+    second: Tile sheet v3_recortado_27
+  - first:
+      213: 3471221014105939418
+    second: Tile sheet v3_recortado_28
+  - first:
+      213: -3671304533384481443
+    second: Tile sheet v3_recortado_29
+  - first:
+      213: -2199956175840412618
+    second: Tile sheet v3_recortado_30
+  - first:
+      213: 3603824431921313390
+    second: Tile sheet v3_recortado_31
+  - first:
+      213: -3882477133890105250
+    second: Tile sheet v3_recortado_32
+  - first:
+      213: -3476425460466522416
+    second: Tile sheet v3_recortado_33
+  - first:
+      213: -1666535630971116866
+    second: Tile sheet v3_recortado_34
+  - first:
+      213: -7475765584602585250
+    second: Tile sheet v3_recortado_35
+  - first:
+      213: -8425060399337741501
+    second: Tile sheet v3_recortado_36
+  - first:
+      213: 493836836151351206
+    second: Tile sheet v3_recortado_37
+  - first:
+      213: 8721835177473968218
+    second: Tile sheet v3_recortado_38
+  - first:
+      213: -3653075272506904020
+    second: Tile sheet v3_recortado_39
+  - first:
+      213: 2191133018045945073
+    second: Tile sheet v3_recortado_40
+  - first:
+      213: -8878994334704948058
+    second: Tile sheet v3_recortado_41
+  - first:
+      213: -552235279132100956
+    second: Tile sheet v3_recortado_42
+  - first:
+      213: -9103506512745563434
+    second: Tile sheet v3_recortado_43
+  - first:
+      213: -2466546224085809041
+    second: Tile sheet v3_recortado_44
+  - first:
+      213: -3064394810211744358
+    second: Tile sheet v3_recortado_45
+  - first:
+      213: 6382460447084325761
+    second: Tile sheet v3_recortado_46
+  - first:
+      213: 3917394343470881611
+    second: Tile sheet v3_recortado_47
+  - first:
+      213: -8647872354694149520
+    second: Tile sheet v3_recortado_48
+  - first:
+      213: 5889459551202599598
+    second: Tile sheet v3_recortado_49
+  - first:
+      213: 7831859567787730345
+    second: Tile sheet v3_recortado_50
+  - first:
+      213: -4728591152318430439
+    second: Tile sheet v3_recortado_51
+  - first:
+      213: -6531636135259930921
+    second: Tile sheet v3_recortado_52
+  - first:
+      213: 3947185019169385530
+    second: Tile sheet v3_recortado_53
+  - first:
+      213: -578640289577946060
+    second: Tile sheet v3_recortado_54
+  - first:
+      213: -6213708058832475546
+    second: Tile sheet v3_recortado_55
+  - first:
+      213: 2315938943500726139
+    second: Tile sheet v3_recortado_56
+  - first:
+      213: -383937984975548972
+    second: Tile sheet v3_recortado_57
+  - first:
+      213: 497086648493404791
+    second: Tile sheet v3_recortado_58
+  - first:
+      213: -1724835226522712460
+    second: Tile sheet v3_recortado_59
+  - first:
+      213: 4518187422575452310
+    second: Tile sheet v3_recortado_60
+  - first:
+      213: 1564132483027639779
+    second: Tile sheet v3_recortado_61
+  - first:
+      213: -8925807066810746175
+    second: Tile sheet v3_recortado_62
+  - first:
+      213: -1795017503751216127
+    second: Tile sheet v3_recortado_63
+  - first:
+      213: 883788197058375742
+    second: Tile sheet v3_recortado_64
+  - first:
+      213: -1157045257618345690
+    second: Tile sheet v3_recortado_65
+  - first:
+      213: 2164936702707704689
+    second: Tile sheet v3_recortado_66
+  - first:
+      213: -8327351022029726672
+    second: Tile sheet v3_recortado_67
+  - first:
+      213: 3317772153081590826
+    second: Tile sheet v3_recortado_68
+  - first:
+      213: 8290171216144692773
+    second: Tile sheet v3_recortado_69
+  - first:
+      213: -3849343419742704465
+    second: Tile sheet v3_recortado_70
+  - first:
+      213: 6010278217080235827
+    second: Tile sheet v3_recortado_71
+  - first:
+      213: -3705233491304927400
+    second: Tile sheet v3_recortado_72
+  - first:
+      213: -4660307367774193212
+    second: Tile sheet v3_recortado_73
+  - first:
+      213: 8145819288148263642
+    second: Tile sheet v3_recortado_74
+  - first:
+      213: 4444061237475789247
+    second: Tile sheet v3_recortado_75
+  - first:
+      213: -4510799342551304076
+    second: Tile sheet v3_recortado_76
+  - first:
+      213: 6908322666611929493
+    second: Tile sheet v3_recortado_77
+  - first:
+      213: -6156636325395861790
+    second: Tile sheet v3_recortado_78
+  - first:
+      213: 4785681752289021475
+    second: Tile sheet v3_recortado_79
+  - first:
+      213: 4579244362091565393
+    second: Tile sheet v3_recortado_80
+  - first:
+      213: -4620135627277422055
+    second: Tile sheet v3_recortado_81
+  - first:
+      213: 8682360602546712699
+    second: Tile sheet v3_recortado_82
+  - first:
+      213: 5304986638309998605
+    second: Tile sheet v3_recortado_83
+  - first:
+      213: 216892996092378313
+    second: Tile sheet v3_recortado_84
+  - first:
+      213: -7244448228443440060
+    second: Tile sheet v3_recortado_85
+  - first:
+      213: -1721497611221024241
+    second: Tile sheet v3_recortado_86
+  - first:
+      213: -5947862926819076980
+    second: Tile sheet v3_recortado_87
+  - first:
+      213: 134892551322021012
+    second: Tile sheet v3_recortado_88
+  - first:
+      213: 7788075339558168737
+    second: Tile sheet v3_recortado_89
+  - first:
+      213: 1404439902153515343
+    second: Tile sheet v3_recortado_90
+  - first:
+      213: -143249558137583913
+    second: Tile sheet v3_recortado_91
+  - first:
+      213: 8390295493294727922
+    second: Tile sheet v3_recortado_92
+  - first:
+      213: 4325968537543393501
+    second: Tile sheet v3_recortado_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493c768b5292996b0800000000000000
+      internalID: -5289151045385600108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1120
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b4f87250edfe720800000000000000
+      internalID: 2877762800632941384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1120
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b061996daae49be10800000000000000
+      internalID: 2213887187481073163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1120
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361d402845a2e0a50800000000000000
+      internalID: 6489170655534436707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1120
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e470550c8034a0800000000000000
+      internalID: -6615633898154695346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1120
+        width: 68
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8210ce6792a5d470800000000000000
+      internalID: 8418813849720853133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_6
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1188
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beafc157667abec20800000000000000
+      internalID: 3236864815689169643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_7
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1183
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb2bb110920af950800000000000000
+      internalID: 6483497431349275642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_8
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1088
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a30ef71fda02870800000000000000
+      internalID: 8656109736550218367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_9
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1089
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952ab248ffda9ea30800000000000000
+      internalID: 4245115436719120985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 981
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0427a98cbbce9e0800000000000000
+      internalID: -1590690098109595483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_11
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 842
+        width: 228
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89af4e8a08113c720800000000000000
+      internalID: 2865153032224832152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ee74f3d58e0b010800000000000000
+      internalID: 1202716587699203615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 960
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d246b01adb295f0800000000000000
+      internalID: -751329688438952675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_14
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 960
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bbc9ea5c9fe33e0800000000000000
+      internalID: -2071944151110468770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 960
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33fc3eec7a622620800000000000000
+      internalID: 2747875807454884669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 960
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc020006e810e1910800000000000000
+      internalID: 1809885811257123019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 960
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4690a9daf1b49ae0800000000000000
+      internalID: -1543413081330117042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_18
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 979
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faca9ebbeb0c4a60800000000000000
+      internalID: 7659510173393406706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_19
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 640
+        width: 235
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c074109a69b7faf30800000000000000
+      internalID: 4589022432324568844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_20
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 477
+        width: 92
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4534c0d3211c5c30800000000000000
+      internalID: 4349370185657103691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_21
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 479
+        width: 87
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c37f0296a82eeea0800000000000000
+      internalID: -5841686970772786234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_22
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 336
+        width: 94
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41791ee544912aae0800000000000000
+      internalID: -1539640341166975212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_23
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 338
+        width: 92
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af6a5667f4d953a0800000000000000
+      internalID: -6676070813560836188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 873
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003402b83b9e02750800000000000000
+      internalID: 6278274837897036544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 872
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfbd6849cc863910800000000000000
+      internalID: 1816794295822041014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_26
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 876
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eb5ef42adae06d0800000000000000
+      internalID: -3022287387282260442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 872
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2181e878df4e4790800000000000000
+      internalID: -7544004534639427282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_28
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 879
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addd7aafe114c2030800000000000000
+      internalID: 3471221014105939418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_29
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 886
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5536517af7ec0dc0800000000000000
+      internalID: -3671304533384481443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_30
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 887
+        width: 88
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cfa91938f2871e0800000000000000
+      internalID: -2199956175840412618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_31
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 800
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e663b891a3b530230800000000000000
+      internalID: 3603824431921313390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 697
+        width: 89
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e572ca12fceb04890800000000000000
+      internalID: -7475765584602585250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_36
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 695
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3436346643c241b80800000000000000
+      internalID: -8425060399337741501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 712
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7ddcb6cf57ad600800000000000000
+      internalID: 493836836151351206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_38
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 691
+        width: 18
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5887d632ee2a0970800000000000000
+      internalID: 8721835177473968218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_39
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 644
+        width: 45
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22767cf46bad4dc0800000000000000
+      internalID: -3653075272506904020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_40
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 640
+        width: 44
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4124ceed7786e10800000000000000
+      internalID: 2191133018045945073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_41
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 640
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aca43d02b977c480800000000000000
+      internalID: -8878994334704948058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_42
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 640
+        width: 86
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a674e280f01658f0800000000000000
+      internalID: -552235279132100956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 327
+        width: 97
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c84b074115cdd0800000000000000
+      internalID: -2466546224085809041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_45
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 327
+        width: 88
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9547cde7251975d0800000000000000
+      internalID: -3064394810211744358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_46
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 342
+        width: 83
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b217df5fd039850800000000000000
+      internalID: 6382460447084325761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_47
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 18
+        width: 93
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bd4bf66616d5630800000000000000
+      internalID: 3917394343470881611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_48
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 18
+        width: 95
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ac88b69e59cf780800000000000000
+      internalID: -8647872354694149520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_76
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 713
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478f92ea5eb6661c0800000000000000
+      internalID: -4510799342551304076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_77
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 712
+        width: 23
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591fe290dda4fdf50800000000000000
+      internalID: 6908322666611929493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_78
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 677
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee638d91eb3f8aa0800000000000000
+      internalID: -6156636325395861790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 675
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e8145b2382a6240800000000000000
+      internalID: 4785681752289021475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_80
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 678
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1519d264c7ebc8f30800000000000000
+      internalID: 4579244362091565393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_81
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 639
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912b002202bf1efb0800000000000000
+      internalID: -4620135627277422055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_82
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 640
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70b4a687f0fd7870800000000000000
+      internalID: 8682360602546712699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_83
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 639
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0049a29d391f9940800000000000000
+      internalID: 5304986638309998605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_84
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 640
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc3b52e70f820300800000000000000
+      internalID: 216892996092378313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_85
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 679
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cbbed08bc867b90800000000000000
+      internalID: -7244448228443440060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_86
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 691
+        width: 14
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02cc712b030c18e0800000000000000
+      internalID: -1721497611221024241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_87
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 802
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84db326e22f47da0800000000000000
+      internalID: -5947862926819076980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_88
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 809
+        width: 104
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c256c8f0c3fd100800000000000000
+      internalID: 134892551322021012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_89
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 801
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a82852224dc41c60800000000000000
+      internalID: 7788075339558168737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_90
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 784
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41ae3466a29d7310800000000000000
+      internalID: 1404439902153515343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_91
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 785
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d64afc2943130ef0800000000000000
+      internalID: -143249558137583913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_92
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 788
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2a4662c41507470800000000000000
+      internalID: 8390295493294727922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 90
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd04ac5077de80c30800000000000000
+      internalID: 4325968537543393501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_32
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 642
+        width: 44
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5057e1fd9bae1ac0800000000000000
+      internalID: -3882477133890105250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_33
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 37
+        width: 91
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e4cc667141cfc0800000000000000
+      internalID: -3476425460466522416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_34
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 33
+        width: 83
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb26f6e5ca64fd8e0800000000000000
+      internalID: -1666535630971116866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_43
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 337
+        width: 88
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da78512f09d9a180800000000000000
+      internalID: -9103506512745563434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_49
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 246
+        width: 91
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2667412409bb150800000000000000
+      internalID: 5889459551202599598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_50
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 241
+        width: 91
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56bbc28ca50bc60800000000000000
+      internalID: 7831859567787730345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_51
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 444
+        width: 91
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913410e666ba06eb0800000000000000
+      internalID: -4728591152318430439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile sheet v3_recortado_52
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 443
+        width: 91
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7def9b38a87fa55a0800000000000000
+      internalID: -6531636135259930921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-
+    [SerializeField] private GameObject MenuGameOver;
     Rigidbody2D rb; // Rigidbody de l'objecte
     public Transform carril1; // Posicio del carril1 on agafarem la x
     public Transform carril2;
@@ -89,8 +89,15 @@ public class PlayerController : MonoBehaviour
 
         if (other.gameObject.CompareTag("car")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
+            
             SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
             //Application.Quit();
+
+            //if (GameOver) // Si acaba la partida()
+            //{
+            //    MenuGameOver.SetActive(true); //activar el menu de GameOver
+            //}
+            
         }
         else if (other.gameObject.CompareTag("Limits")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
