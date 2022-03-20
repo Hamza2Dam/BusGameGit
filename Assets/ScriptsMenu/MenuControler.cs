@@ -23,11 +23,11 @@ public class MenuControler : MonoBehaviour
     }
     public void Shop()
     {
-        SceneManager.LoadScene("ShopScene");
+
     }
     public void Settings()
     {
-        SceneManager.LoadScene("SettingsScene");
+
     }
     public void Exit()
     {
