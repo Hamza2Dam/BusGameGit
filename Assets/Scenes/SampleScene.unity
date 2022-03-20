@@ -204,6 +204,9 @@ Transform:
   m_Father: {fileID: 1738035778}
   m_RootOrder: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 925326a (GameOver Menu)
+=======
 >>>>>>> parent of 925326a (GameOver Menu)
 =======
 >>>>>>> parent of 925326a (GameOver Menu)
@@ -244,7 +247,11 @@ GameObject:
   m_Layer: 5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Right
+=======
+  m_Name: MenuButton
+>>>>>>> parent of 925326a (GameOver Menu)
 =======
   m_Name: MenuButton
 >>>>>>> parent of 925326a (GameOver Menu)
@@ -321,6 +328,7 @@ MonoBehaviour:
     m_PersistentCalls:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Calls:
       - m_Target: {fileID: 575149061}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
@@ -336,6 +344,8 @@ MonoBehaviour:
         m_CallState: 2
 --- !u!114 &303057851
 =======
+=======
+>>>>>>> parent of 925326a (GameOver Menu)
 =======
 >>>>>>> parent of 925326a (GameOver Menu)
       m_Calls: []
@@ -2739,7 +2749,11 @@ GameObject:
   m_Layer: 5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Text
+=======
+  m_Name: RetryButton
+>>>>>>> parent of 925326a (GameOver Menu)
 =======
   m_Name: RetryButton
 >>>>>>> parent of 925326a (GameOver Menu)
