@@ -18,8 +18,10 @@ public class ScrollCarreteras : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+     void Update()
     {
+
+        //Scroll(speed);
         transform.Translate(translation: Vector3.down*speed*Time.deltaTime); // Scroll avall amb una velocitat
 
         //if(transform.position.y < limitycr1) // Quan arribi a el seu limit torna a la posició inicial així fa el efecte infinit
@@ -31,4 +33,7 @@ public class ScrollCarreteras : MonoBehaviour
 
         //if(TimerScript)
     }
+
+
+ 
 }

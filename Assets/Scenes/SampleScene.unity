@@ -849,7 +849,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &739635271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,6 +1087,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1003315089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1008963728101736102, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
+  m_PrefabInstance: {fileID: 8599756897751714946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1003315093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003315089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50eb58ba7fd7b084187009f0e02d8e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  carril1: {fileID: 98773969}
+  carril2: {fileID: 2040562976}
+  carril3: {fileID: 1342392751}
 --- !u!1 &1094503379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,7 +1345,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.16078432, g: 0.28235295, b: 0.43137258, a: 1}
+  m_BackGroundColor: {r: 0.12830187, g: 0.21476622, b: 0.3207547, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -8019,17 +8040,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil can
       objectReference: {fileID: 0}
+    - target: {fileID: 1008963728101736102, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.39
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 55.3
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalPosition.z
