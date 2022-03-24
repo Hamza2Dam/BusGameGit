@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     
     ScrollCarreteras scrollspeed;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -105,10 +106,10 @@ public class PlayerController : MonoBehaviour
 
         else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
-            scrollspeed.speed = scrollspeed.speed + 300;
-        
-            
-            
+          
+
+
+
 
         }
 
