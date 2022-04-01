@@ -16,7 +16,7 @@ public class ScrollCarreteras : MonoBehaviour
     {
         StartPosition = transform.position; // Posició Inicial
 
-    }
+    }   
 
     // Update is called once per frame
      void Update()
