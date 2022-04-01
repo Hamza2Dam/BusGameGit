@@ -7,7 +7,7 @@ public class ScrollCarreteras : MonoBehaviour
 {
     public  float speed = 6f; // Velocitat del scroll
     private Vector3 StartPosition; // Posició inicial 
-    private int limitycr1 = -34; // Limit del fons (y) vertical
+    private int limitycr1 = -11; // Limit del fons (y) vertical
 
 
     // Start is called before the first frame update
