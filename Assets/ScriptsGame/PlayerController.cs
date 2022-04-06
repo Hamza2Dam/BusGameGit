@@ -17,8 +17,8 @@ public class PlayerController : MonoBehaviour
     private Vector2 endTouchPosition;
     private bool stopTouch = false;
 
-    public float swipeRange = 50;
-    public float tapRange = 10;
+    private float swipeRange = 50;
+    private float tapRange = 10;
 
     // public int ocupants;
     // public int maxocupants;
@@ -74,6 +74,20 @@ public class PlayerController : MonoBehaviour
                 }
                 
 
+            }
+
+        }
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
+        {
+            stopTouch = false;
+
+            endTouchPosition = Input.GetTouch(0).position;
+
+            Vector2 Distance = endTouchPosition - startTouchPosition;
+
+            if (Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange)
+            {
+                //outputText.text = "Tap";
             }
 
         }
