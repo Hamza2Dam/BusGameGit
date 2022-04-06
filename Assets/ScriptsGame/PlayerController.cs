@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     // public int maxocupants;
 
 
-    ScrollCarreteras scrollspeed;
+    //ScrollCarreteras scrollspeed;
 
 
     // Start is called before the first frame update
@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
         //}
 
         void OnTriggerEnter2D(Collider2D other) // Colisió Trigger 
-    {
+        {
 
         if (other.gameObject.CompareTag("car")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
@@ -146,16 +146,16 @@ public class PlayerController : MonoBehaviour
             redcar.SetActive(true);
         }
 
-        else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
-        {
+        //else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
+        //{
           
 
 
 
-        }
+        //}
 
 
-    }
+         }
 
 
 
