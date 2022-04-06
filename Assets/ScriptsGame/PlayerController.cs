@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public Transform carril2;
     public Transform carril3;
     public GameObject redcar;
+
 
     private Vector2 startTouchPosition;
     private Vector2 currentPosition;
