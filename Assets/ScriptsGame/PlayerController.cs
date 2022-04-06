@@ -13,14 +13,18 @@ public class PlayerController : MonoBehaviour
     public Transform carril3;
     public GameObject redcar;
 
+    public Text text;
+
 
     private Vector2 startTouchPosition;
     private Vector2 currentPosition;
     private Vector2 endTouchPosition;
     private bool stopTouch = false;
 
-    private float swipeRange = 50;
-    private float tapRange = 10;
+    public float swipeRange;
+    public float tapRange;
+
+
 
     // public int ocupants;
     // public int maxocupants;
@@ -36,6 +40,8 @@ public class PlayerController : MonoBehaviour
         //rb.transform.position = new Vector3(0, 0, 0);
         //ocupants = 0;
         //maxocupants = 30;
+      
+     
 
 
     }
@@ -44,56 +50,15 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        Swipe();
+
+      
     }
 
-    public void Swipe()
-    {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
-        {
-            startTouchPosition = Input.GetTouch(0).position;
-        }
+    
 
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
-        {
-            currentPosition = Input.GetTouch(0).position;
-            Vector2 Distance = currentPosition - startTouchPosition;
 
-            if (!stopTouch)
-            {
 
-                if (Distance.x < -swipeRange)
-                {
-                    //outputText.text = "Left";
-                    Left();
-                    stopTouch = true;
-                }
-                else if (Distance.x > swipeRange)
-                {
-                    //outputText.text = "Right";
-                    Right();
-                    stopTouch = true;
-                }
-                
 
-            }
-
-        }
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
-        {
-            stopTouch = false;
-
-            endTouchPosition = Input.GetTouch(0).position;
-
-            Vector2 Distance = endTouchPosition - startTouchPosition;
-
-            if (Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange)
-            {
-                //outputText.text = "Tap";
-            }
-
-        }
-    }
 
 
 
@@ -104,13 +69,13 @@ public class PlayerController : MonoBehaviour
         if (rb.transform.position.x == carril2.transform.position.x) // Si l'objecte está en el carril 2 (igualem les coordenades x) el pasem al carril3.x
         {
 
-            rb.transform.position = new Vector3(carril3.transform.position.x, 0, 0);
+            rb.transform.position = new Vector3(carril3.transform.position.x, carril3.transform.position.y, 0);
 
         }
         else if (rb.transform.position.x == carril1.transform.position.x) // Si l'objecte está en el carril 1 (igualem les coordenades x) el pasem al carril2.x
         {
 
-            rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
+            rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
 
 
         }
@@ -126,14 +91,14 @@ public class PlayerController : MonoBehaviour
             // rb.AddForce(Vector2.left);
             //rb.transform.position = new Vector3(limitesq, -1, 0);
 
-            rb.transform.position = new Vector3(carril1.transform.position.x, 0, 0);
+            rb.transform.position = new Vector3(carril1.transform.position.x, carril1.transform.position.y, 0);
 
 
         }
         else if (rb.transform.position.x == carril3.transform.position.x)
         {
 
-            rb.transform.position = new Vector3(carril2.transform.position.x, 0, 0);
+            rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
 
         }
     }
