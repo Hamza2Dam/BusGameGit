@@ -18312,7 +18312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224555408071234864, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224555408071234865, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: carril1
@@ -36033,7 +36033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1008963728101736102, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_RootOrder

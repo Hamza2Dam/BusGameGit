@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
 {
-    PlayerController gameobj;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +26,7 @@ public class GameOver : MonoBehaviour
 
         SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
 
-        gameobj.GameOver.SetActive(false);
+
 
     }
 }
