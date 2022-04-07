@@ -7,8 +7,8 @@ public class ScrollCarreteras : MonoBehaviour
 {
 
     private int limitmapa = 23;
+
     public int scrollspeed;
-   
     
 
     // Start is called before the first frame update
@@ -23,15 +23,15 @@ public class ScrollCarreteras : MonoBehaviour
      void Update()
      {
 
-        Scroll(5);
+        Scroll();
 
      } 
 
 
-    public void Scroll(int scrollspeed) 
+    public void Scroll() 
     {
-        
- 
+
+        scrollspeed = 5;
 
         transform.position += new Vector3(0, -scrollspeed * Time.deltaTime);
 

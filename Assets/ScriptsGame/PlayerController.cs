@@ -219,12 +219,15 @@ public class PlayerController : MonoBehaviour
         {
 
 
-            speed.Scroll(10);
+            speed.scrollspeed = 10;
 
         }
 
 
     }
+
+
+
 
 
 
