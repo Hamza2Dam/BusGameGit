@@ -2156,6 +2156,7 @@ MonoBehaviour:
   carril2: {fileID: 2040562976}
   carril3: {fileID: 1342392751}
   redcar: {fileID: 1148867860}
+  GameOver: {fileID: 739635270}
   swipeRange: 50
   tapRange: 10
 --- !u!1 &608829818

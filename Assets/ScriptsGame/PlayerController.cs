@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public Transform carril2;
     public Transform carril3;
     public GameObject redcar;
+    public GameObject GameOver;
 
 
 
@@ -201,12 +202,13 @@ public class PlayerController : MonoBehaviour
 
         if (other.gameObject.CompareTag("car")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
-            SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
+            //SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
             //Application.Quit();
+            GameOverFuntion();
         }
         else if (other.gameObject.CompareTag("Limits")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
-            SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
+            //SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
             //Application.Quit();
         }
 
@@ -224,6 +226,13 @@ public class PlayerController : MonoBehaviour
         }
 
 
+    }
+
+
+    private void GameOverFuntion() {
+
+        GameOver.SetActive(true);
+    
     }
 
 
