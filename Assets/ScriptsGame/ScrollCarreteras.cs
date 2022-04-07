@@ -5,7 +5,7 @@ using UnityEngine;
 public class ScrollCarreteras : MonoBehaviour
 
 {
-    private int scrollspeed;
+    public int scrollspeed;
     private int limitmapa = 23;
 
     

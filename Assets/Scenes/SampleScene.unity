@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a04cb6241881934eb32af2a385a88bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollspeed: 0
 --- !u!1 &98773968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,7 +2157,7 @@ MonoBehaviour:
   carril3: {fileID: 1342392751}
   redcar: {fileID: 1148867860}
   swipeRange: 50
-  tapRange: 50
+  tapRange: 10
 --- !u!1 &608829818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,6 +2726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a04cb6241881934eb32af2a385a88bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scrollspeed: 0
 --- !u!1 &1283871261
 GameObject:
   m_ObjectHideFlags: 0
@@ -18296,7 +18298,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224555408071234867, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224555408071234867, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224555408071234867, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 224555408071234867, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35977,7 +35987,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1008963728101736102, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_RootOrder
@@ -36022,6 +36032,10 @@ PrefabInstance:
     - target: {fileID: 3265999310761951253, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057937551591689686, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 020c2944b0a9f99408d18bf8256cf855, type: 3}

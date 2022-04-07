@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     public float swipeRange;
     public float tapRange;
 
+    ScrollCarreteras speed;
+
 
 
 
@@ -208,21 +210,21 @@ public class PlayerController : MonoBehaviour
             //Application.Quit();
         }
 
-        else if (other.gameObject.CompareTag("SpawnCotxe")) // Si l'objecte amb el qual colisionem te un tag == "";
-        {
-            redcar.SetActive(true);
-        }
-
-        //else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
+        //else if (other.gameObject.CompareTag("SpawnCotxe")) // Si l'objecte amb el qual colisionem te un tag == "";
         //{
-          
-
-
-
+        //    redcar.SetActive(true);
         //}
 
+        else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
+        {
 
-         }
+
+            speed.scrollspeed = speed.scrollspeed * 2;
+
+        }
+
+
+    }
 
 
 
