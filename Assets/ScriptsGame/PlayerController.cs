@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public float swipeRange;
     public float tapRange;
 
-    public Text outputText;
+
 
 
     // public int ocupants;
@@ -57,8 +57,12 @@ public class PlayerController : MonoBehaviour
     {
 
         Swipe();
+        movementpc();
       
     }
+
+
+    // Android Movement
 
     public void Swipe()
     {
@@ -77,28 +81,19 @@ public class PlayerController : MonoBehaviour
 
                 if (Distance.x < -swipeRange)
                 {
-                     Left();
-                     outputText.text = "Left";
+                    Left();
+
 
                     stopTouch = true;
                 }
                 else if (Distance.x > swipeRange)
                 {
                     Right();
-                    outputText.text = "Right";
+
 
                     stopTouch = true;
                 }
-                else if (Distance.y > swipeRange)
-                {
-                    outputText.text = "Up";
-                    stopTouch = true;
-                }
-                else if (Distance.y < -swipeRange)
-                {
-                    outputText.text = "Down";
-                    stopTouch = true;
-                }
+
 
             }
 
@@ -114,10 +109,31 @@ public class PlayerController : MonoBehaviour
 
             if (Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange)
             {
-                outputText.text = "Tap";
+                //outputText.text = "Tap";
             }
 
         }
+
+
+    }
+
+
+
+    // Pc Movement
+
+
+    private void movementpc() 
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Left();
+        }
+        else if (Input.GetKeyDown(KeyCode.D)) 
+        {
+
+            Right();
+        }
+
 
 
     }
