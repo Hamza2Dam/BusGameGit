@@ -9,13 +9,16 @@ public class ScrollCarreteras : MonoBehaviour
     private int limitmapa = 23;
 
     public int scrollspeed;
+
+    public GameObject map1;
+    public GameObject map2;
     
 
     // Start is called before the first frame update
     void Start()
     {
 
-       
+        scrollspeed = 5;
 
     }   
 
@@ -31,13 +34,20 @@ public class ScrollCarreteras : MonoBehaviour
     public void Scroll() 
     {
 
-        scrollspeed = 5;
+      
 
-        transform.position += new Vector3(0, -scrollspeed * Time.deltaTime);
+        map1.transform.position += new Vector3(0, -scrollspeed * Time.deltaTime);
 
-        if (transform.position.y < -limitmapa)
+        if (map1.transform.position.y < -limitmapa)
         {
-            transform.position = new Vector3(0, limitmapa);
+            map1.transform.position = new Vector3(0, limitmapa);
+        }
+
+        map2.transform.position += new Vector3(0, -scrollspeed * Time.deltaTime);
+
+        if (map2.transform.position.y < -limitmapa)
+        {
+            map2.transform.position = new Vector3(0, limitmapa);
         }
 
 
