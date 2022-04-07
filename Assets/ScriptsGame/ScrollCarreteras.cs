@@ -5,22 +5,33 @@ using UnityEngine;
 public class ScrollCarreteras : MonoBehaviour
 
 {
-    public int scrollspeed;
-    private int limitmapa = 23;
 
+    private int limitmapa = 23;
+    public int scrollspeed;
+   
     
 
     // Start is called before the first frame update
     void Start()
     {
 
-        scrollspeed = 5;
+       
 
     }   
 
     // Update is called once per frame
      void Update()
      {
+
+        Scroll(5);
+
+     } 
+
+
+    public void Scroll(int scrollspeed) 
+    {
+        
+ 
 
         transform.position += new Vector3(0, -scrollspeed * Time.deltaTime);
 
@@ -30,8 +41,8 @@ public class ScrollCarreteras : MonoBehaviour
         }
 
 
-     }
+    }
 
 
- 
+
 }

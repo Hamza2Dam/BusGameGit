@@ -219,7 +219,7 @@ public class PlayerController : MonoBehaviour
         {
 
 
-            speed.scrollspeed = speed.scrollspeed * 2;
+            speed.Scroll(10);
 
         }
 
