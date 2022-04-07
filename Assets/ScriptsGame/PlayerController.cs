@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
         //maxocupants = 30;
 
 
-        speed = GetComponent<ScrollCarreteras>();
+       // speed = GetComponent<ScrollCarreteras>();
 
         rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
 
@@ -224,8 +224,8 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
 
-            GetComponent<ScrollCarreteras>().scrollspeed = 20;
 
+            speed.scrollspeed = speed.scrollspeed + 10;
         }
 
 

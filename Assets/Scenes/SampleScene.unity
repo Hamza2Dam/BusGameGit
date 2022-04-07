@@ -2145,6 +2145,7 @@ MonoBehaviour:
   GameOver: {fileID: 739635270}
   swipeRange: 50
   tapRange: 10
+  speed: {fileID: 1215122750}
 --- !u!1 &608829818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,9 +2725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a04cb6241881934eb32af2a385a88bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollspeed: 0
   map1: {fileID: 82916569}
   map2: {fileID: 1276629437}
+  scrollspeed: 5
 --- !u!1 &1276629437
 GameObject:
   m_ObjectHideFlags: 0
