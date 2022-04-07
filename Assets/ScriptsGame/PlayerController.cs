@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     public float swipeRange;
     public float tapRange;
 
-    ScrollCarreteras speed;
+   public ScrollCarreteras speed;
 
     
 
@@ -224,7 +224,7 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
 
-            speed.Scroll(20);
+            GetComponent<ScrollCarreteras>().scrollspeed = 20;
 
         }
 

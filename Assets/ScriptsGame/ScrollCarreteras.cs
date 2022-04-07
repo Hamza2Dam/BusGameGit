@@ -27,12 +27,12 @@ public class ScrollCarreteras : MonoBehaviour
      void Update()
      {
 
-        Scroll(scrollspeed);
+        Scroll();
 
      } 
 
 
-    public void Scroll(int scrollspeed) 
+    public void Scroll() 
     {
 
  
