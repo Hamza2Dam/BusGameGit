@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
 
     ScrollCarreteras speed;
 
+    
+
 
 
 
@@ -46,6 +48,8 @@ public class PlayerController : MonoBehaviour
         //ocupants = 0;
         //maxocupants = 30;
 
+
+        speed = GetComponent<ScrollCarreteras>();
 
         rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
 
