@@ -26,16 +26,22 @@ public class ScrollCarreteras : MonoBehaviour
 
         //Scroll(speed);
 
-        transform.Translate(translation: Vector3.down*speed*Time.deltaTime); // Scroll avall amb una velocitat
+        //transform.Translate(translation: Vector3.down*speed*Time.deltaTime); // Scroll avall amb una velocitat
 
-        if (transform.position.y < limitycr1) // Quan arribi a el seu limit torna a la posició inicial així fa el efecte infinit
+        //if (transform.position.y < limitycr1) // Quan arribi a el seu limit torna a la posició inicial així fa el efecte infinit
+        //{
+
+        //    transform.position = StartPosition; // Tornar a la posició inicial
+
+
+        //}
+
+        transform.position += new Vector3(0, -5 * Time.deltaTime);
+
+        if (transform.position.y < -23)
         {
-
-            transform.position = StartPosition; // Tornar a la posició inicial
-
-
+            transform.position = new Vector3(0, 23f);
         }
-
 
         //if(TimerScript)
     }
