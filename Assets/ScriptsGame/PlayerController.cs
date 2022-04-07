@@ -224,8 +224,7 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
 
-
-            speed.scrollspeed = speed.scrollspeed + 10;
+            speed.Scroll(20);
 
         }
 
