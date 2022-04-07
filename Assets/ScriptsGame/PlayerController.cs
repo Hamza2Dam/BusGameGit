@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
 
 
+
     private Vector2 startTouchPosition;
     private Vector2 currentPosition;
     private Vector2 endTouchPosition;
@@ -41,6 +42,9 @@ public class PlayerController : MonoBehaviour
         //rb.transform.position = new Vector3(0, 0, 0);
         //ocupants = 0;
         //maxocupants = 30;
+
+
+        rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
 
 
 
@@ -130,13 +134,15 @@ public class PlayerController : MonoBehaviour
     private  void Right() // Girar a la dreta
     {
 
-        if (rb.transform.position.x == carril2.transform.position.x) // Si l'objecte está en el carril 2 (igualem les coordenades x) el pasem al carril3.x
+        if (rb.transform.position == carril2.transform.position) // Si l'objecte está en el carril 2 (igualem les coordenades x) el pasem al carril3.x
         {
 
             rb.transform.position = new Vector3(carril3.transform.position.x, carril3.transform.position.y, 0);
 
+         
+
         }
-        else if (rb.transform.position.x == carril1.transform.position.x) // Si l'objecte está en el carril 1 (igualem les coordenades x) el pasem al carril2.x
+        else if (rb.transform.position == carril1.transform.position) // Si l'objecte está en el carril 1 (igualem les coordenades x) el pasem al carril2.x
         {
 
             rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
@@ -149,7 +155,7 @@ public class PlayerController : MonoBehaviour
 
     private void Left() // Girar a l'esquerra
     {
-        if (rb.transform.position.x == carril2.transform.position.x)
+        if (rb.transform.position == carril2.transform.position)
         {
 
             // rb.AddForce(Vector2.left);
@@ -159,7 +165,7 @@ public class PlayerController : MonoBehaviour
 
 
         }
-        else if (rb.transform.position.x == carril3.transform.position.x)
+        else if (rb.transform.position == carril3.transform.position)
         {
 
             rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
