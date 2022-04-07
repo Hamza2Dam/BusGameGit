@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public Transform carril3;
     public GameObject redcar;
 
-    public Text text;
+
 
 
     private Vector2 startTouchPosition;
@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     public float swipeRange;
     public float tapRange;
 
+    public Text outputText;
 
 
     // public int ocupants;
@@ -40,8 +41,9 @@ public class PlayerController : MonoBehaviour
         //rb.transform.position = new Vector3(0, 0, 0);
         //ocupants = 0;
         //maxocupants = 30;
-      
-     
+
+
+
 
 
     }
@@ -50,11 +52,71 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-
+        Swipe();
       
     }
 
-    
+    public void Swipe()
+    {
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            startTouchPosition = Input.GetTouch(0).position;
+        }
+
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
+        {
+            currentPosition = Input.GetTouch(0).position;
+            Vector2 Distance = currentPosition - startTouchPosition;
+
+            if (!stopTouch)
+            {
+
+                if (Distance.x < -swipeRange)
+                {
+                     Left();
+                     outputText.text = "Left";
+
+                    stopTouch = true;
+                }
+                else if (Distance.x > swipeRange)
+                {
+                    Right();
+                    outputText.text = "Right";
+
+                    stopTouch = true;
+                }
+                else if (Distance.y > swipeRange)
+                {
+                    outputText.text = "Up";
+                    stopTouch = true;
+                }
+                else if (Distance.y < -swipeRange)
+                {
+                    outputText.text = "Down";
+                    stopTouch = true;
+                }
+
+            }
+
+        }
+
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
+        {
+            stopTouch = false;
+
+            endTouchPosition = Input.GetTouch(0).position;
+
+            Vector2 Distance = endTouchPosition - startTouchPosition;
+
+            if (Mathf.Abs(Distance.x) < tapRange && Mathf.Abs(Distance.y) < tapRange)
+            {
+                outputText.text = "Tap";
+            }
+
+        }
+
+
+    }
 
 
 
@@ -62,8 +124,10 @@ public class PlayerController : MonoBehaviour
 
 
 
+  
 
-    public void Right() // Girar a la dreta
+
+    private  void Right() // Girar a la dreta
     {
 
         if (rb.transform.position.x == carril2.transform.position.x) // Si l'objecte está en el carril 2 (igualem les coordenades x) el pasem al carril3.x
@@ -83,7 +147,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void Left() // Girar a l'esquerra
+    private void Left() // Girar a l'esquerra
     {
         if (rb.transform.position.x == carril2.transform.position.x)
         {
