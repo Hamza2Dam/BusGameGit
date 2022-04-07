@@ -2217,6 +2217,7 @@ GameObject:
   - component: {fileID: 739635273}
   - component: {fileID: 739635272}
   - component: {fileID: 739635271}
+  - component: {fileID: 739635275}
   m_Layer: 5
   m_Name: CanvasGameOver
   m_TagString: Untagged
@@ -2305,6 +2306,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &739635275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739635270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab408a2ad9986f42a08d048f6b2e97b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &786270581 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 224555408071234867, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
@@ -18941,7 +18954,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1734188637}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 739635275}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: Retry
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1734188637
 MonoBehaviour:
   m_ObjectHideFlags: 0
