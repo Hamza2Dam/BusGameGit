@@ -8,6 +8,7 @@ public class TimerScript : MonoBehaviour
     public Text contador;
     //public Text fin;
     public float tiempo = 0f; // Començem el temps a 0
+    public Text puntuacio;
 
 
     // Start is called before the first frame update
@@ -31,6 +32,8 @@ public class TimerScript : MonoBehaviour
         //    contador.text = "0";
         //   // fin.enabled = true;
         //} 
+
+        puntuacio.text = "Score : " + contador.text; // Mostrem la puntuacio al final
         
     }
 }

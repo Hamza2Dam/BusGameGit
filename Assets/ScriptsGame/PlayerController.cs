@@ -239,7 +239,9 @@ public class PlayerController : MonoBehaviour
 
         GameOver.SetActive(true); // Activem el canvas de GameOver
 
-        StopGame();
+
+
+        StopGame();// Parar tot
         
 
         

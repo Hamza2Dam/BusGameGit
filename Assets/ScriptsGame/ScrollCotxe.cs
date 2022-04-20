@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class ScrollCotxe : MonoBehaviour
 {
     public float speed = 15f; // Velocitat del scroll
     private Vector3 StartPosition; // Poscio incial
+
+  
 
 
 
@@ -34,14 +36,15 @@ public class ScrollCotxe : MonoBehaviour
         //}
     }
 
-    void OnTriggerEnter2D(Collider2D other) // Colisió Trigger 
-    {
+    //void OnTriggerEnter2D(Collider2D other) // Colisió Trigger 
+    //{
 
-        if (other.gameObject.CompareTag("Destroyer")) // Si l'objecte amb el qual colisionem te un tag == "";
-        {
-            Destroy(this.gameObject);
-        }
+    //    if (other.gameObject.CompareTag("Destroyer")) // Si l'objecte amb el qual colisionem te un tag == "";
+    //    {
+    //        Destroy(this.gameObject);
+
+    //    }
 
 
-    }
+    //}
 }
