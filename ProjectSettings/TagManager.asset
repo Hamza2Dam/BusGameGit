@@ -9,6 +9,7 @@ TagManager:
   - SpawnCotxe
   - OilSpeed
   - Bus
+  - Destroyer
   layers:
   - Default
   - TransparentFX

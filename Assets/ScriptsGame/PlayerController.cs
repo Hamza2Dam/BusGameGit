@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public Transform carril3;
     public GameObject redcar;
     public GameObject GameOver;
+    public GameObject SpawnCotxes;
+    public GameObject timer;
 
 
 
@@ -27,6 +29,7 @@ public class PlayerController : MonoBehaviour
     public float tapRange;
 
    public ScrollCarreteras speed;
+
 
     
 
@@ -234,9 +237,32 @@ public class PlayerController : MonoBehaviour
 
     private void GameOverFuntion() {
 
-        GameOver.SetActive(true);
-    
+        GameOver.SetActive(true); // Activem el canvas de GameOver
+
+        StopGame();
+        
+
+        
+        
+        
+
+
+
     }
+
+    private void StopGame()
+    {
+        speed.scrollspeed = 0; // Parem el scrolling 
+
+
+
+        Destroy(SpawnCotxes); // Parar Cotxes
+
+        timer.SetActive(false); // Parem el timer
+
+    }
+
+
 
 
 
