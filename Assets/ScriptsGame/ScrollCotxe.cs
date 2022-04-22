@@ -36,15 +36,5 @@ public class ScrollCotxe : MonoBehaviour
         //}
     }
 
-    //void OnTriggerEnter2D(Collider2D other) // Colisió Trigger 
-    //{
-
-    //    if (other.gameObject.CompareTag("Destroyer")) // Si l'objecte amb el qual colisionem te un tag == "";
-    //    {
-    //        Destroy(this.gameObject);
-
-    //    }
-
-
-    //}
+   
 }
