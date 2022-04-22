@@ -2269,6 +2269,7 @@ MonoBehaviour:
   carril2: {fileID: 2040562976}
   carril3: {fileID: 1342392751}
   car: {fileID: 1148867860}
+  speed: 5
 --- !u!1 &739635270
 GameObject:
   m_ObjectHideFlags: 0
@@ -18650,7 +18651,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 224555408071234865, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
 --- !u!1 &1488129676
 GameObject:

@@ -11,6 +11,10 @@ public class SpawnCotxes : MonoBehaviour
     public GameObject car;
 
 
+    public float speed = 15f; // Velocitat del scroll
+    private Vector3 StartPosition; // Poscio incial
+
+
 
     // Start is called before the first frame update
 
@@ -19,11 +23,13 @@ public class SpawnCotxes : MonoBehaviour
     {
       
     }
-    // Update is called once per frame
+
     void Update()
     {
-     
+        car.transform.Translate(translation: Vector3.down * speed * 2 * Time.deltaTime); // Scroll del obejcte cap avall amb un speed
     }
+    // Update is called once per frame
+
 
     void Awake()
     {
@@ -36,6 +42,7 @@ public class SpawnCotxes : MonoBehaviour
     {
         float randomNumber = Random.Range(1, 4); // Número random per escollir els carrils on spawnejar l'objecte de manera random
         GameObject generate = Instantiate(car); // Objecte a spawnejar (Instanciar)
+    
 
         if (randomNumber == 1)  // Si el numero random == 1 spawneja l'objecte al carril1.
         {
@@ -55,4 +62,5 @@ public class SpawnCotxes : MonoBehaviour
         }
 
     }
+ 
 }
