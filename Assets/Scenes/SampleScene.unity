@@ -226,7 +226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7714257615444321550, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714257615444321550, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
       propertyPath: m_TagString
@@ -2492,7 +2492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1067684813
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2679,6 +2679,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 224555408071234864, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
   m_PrefabInstance: {fileID: 1445621695}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1148867861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148867860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9a840253a2da045ad4998a9852db2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!50 &1148867864
 Rigidbody2D:
   serializedVersion: 4
@@ -18494,7 +18507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1418617913
 Transform:
   m_ObjectHideFlags: 0
@@ -18597,7 +18610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224555408071234867, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224555408071234867, guid: 8ae8a126c614f4f45a515cffe142d995, type: 3}
       propertyPath: m_LocalScale.x

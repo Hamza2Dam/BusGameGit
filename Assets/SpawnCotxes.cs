@@ -26,7 +26,7 @@ public class SpawnCotxes : MonoBehaviour
 
     void Update()
     {
-        car.transform.Translate(translation: Vector3.down * speed * 2 * Time.deltaTime); // Scroll del obejcte cap avall amb un speed
+       // car.transform.Translate(translation: Vector3.down * speed * 2 * Time.deltaTime); // Scroll del obejcte cap avall amb un speed
     }
     // Update is called once per frame
 

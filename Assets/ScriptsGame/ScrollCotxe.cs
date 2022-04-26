@@ -28,13 +28,15 @@ public class ScrollCotxe : MonoBehaviour
     void Update()
     {
         transform.Translate(translation: Vector3.down * speed * 2 * Time.deltaTime); // Scroll del obejcte cap avall amb un speed
-
+   
         //if (transform.position.y < limitycr1)
         //{
 
         //    transform.position = StartPosition;
         //}
     }
+
+ 
 
    
 }
