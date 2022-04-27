@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     public float tapRange;
 
     public  Text coins;
+    public Text finalcoins;
 
    public ScrollCarreteras speed;
 
@@ -250,6 +251,8 @@ public class PlayerController : MonoBehaviour
     private void GameOverFuntion() {
 
         GameOver.SetActive(true); // Activem el canvas de GameOver
+
+        finalcoins.text = contadorcoins.ToString() ;
 
 
 
