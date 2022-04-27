@@ -2225,7 +2225,6 @@ MonoBehaviour:
   carril2: {fileID: 2040562976}
   carril3: {fileID: 1342392751}
   car: {fileID: 2247370479580660169, guid: d6dd73cf739c35b43942849e243df103, type: 3}
-  speed: 5
 --- !u!1 &739635270
 GameObject:
   m_ObjectHideFlags: 0
@@ -2460,7 +2459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 804, y: -29}
+  m_AnchoredPosition: {x: 826, y: -15.000427}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1067684814
@@ -2485,7 +2484,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_FontSize: 80
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -2658,7 +2657,6 @@ MonoBehaviour:
   carril2: {fileID: 2040562976}
   carril3: {fileID: 1342392751}
   car: {fileID: 7714257615444321550, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
-  speed: 1
 --- !u!4 &1137265109
 Transform:
   m_ObjectHideFlags: 0
@@ -3031,7 +3029,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 150
+    m_FontSize: 120
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -18476,8 +18474,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418617912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 247, y: 625, z: -12800.002}
-  m_LocalScale: {x: 50, y: 50, z: 142.22224}
+  m_LocalPosition: {x: 287.5, y: 650.6, z: -12800.002}
+  m_LocalScale: {x: 35.72, y: 34.3, z: 142.22224}
   m_Children: []
   m_Father: {fileID: 1738035778}
   m_RootOrder: 0

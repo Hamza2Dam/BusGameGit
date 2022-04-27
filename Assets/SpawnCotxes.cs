@@ -11,7 +11,7 @@ public class SpawnCotxes : MonoBehaviour
     public GameObject car;
 
 
-    public float speed = 15f; // Velocitat del scroll
+ 
     private Vector3 StartPosition; // Poscio incial
 
 
