@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
 
 
 
+    private int contadorcoins;
 
     private Vector2 startTouchPosition;
     private Vector2 currentPosition;
@@ -27,6 +28,8 @@ public class PlayerController : MonoBehaviour
 
     public float swipeRange;
     public float tapRange;
+
+    public  Text coins;
 
    public ScrollCarreteras speed;
 
@@ -55,6 +58,7 @@ public class PlayerController : MonoBehaviour
        // speed = GetComponent<ScrollCarreteras>();
 
         rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
+        contadorcoins = 0;
 
 
 
@@ -229,6 +233,14 @@ public class PlayerController : MonoBehaviour
 
 
             speed.scrollspeed = speed.scrollspeed + 10;
+        }
+        else if (other.gameObject.CompareTag("coin")) // Si l'objecte amb el qual colisionem te un tag == "";
+        {
+
+            contadorcoins++;
+            coins.text = contadorcoins.ToString();
+            Destroy(other.gameObject);
+
         }
 
 

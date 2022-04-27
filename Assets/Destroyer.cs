@@ -25,6 +25,12 @@ public class Destroyer : MonoBehaviour
 
         }
 
+        else if (other.gameObject.CompareTag("coin")) // Si l'objecte amb el qual colisionem te un tag == "";
+        {
+            Destroy(other.gameObject);
+
+        }
+
 
     }
 }
