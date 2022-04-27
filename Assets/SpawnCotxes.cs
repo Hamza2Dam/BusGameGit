@@ -10,6 +10,8 @@ public class SpawnCotxes : MonoBehaviour
 
     public GameObject car;
 
+ 
+
 
  
     private Vector3 StartPosition; // Poscio incial
