@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public GameObject redcar;
     public GameObject GameOver;
     public GameObject SpawnCotxes;
+    public GameObject SpawnMonedes;
     public GameObject timer;
 
 
@@ -274,6 +275,7 @@ public class PlayerController : MonoBehaviour
 
 
         Destroy(SpawnCotxes); // Parar Cotxes
+        Destroy(SpawnMonedes);
 
         timer.SetActive(false); // Parem el timer
 
