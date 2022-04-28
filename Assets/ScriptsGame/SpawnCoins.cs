@@ -36,7 +36,7 @@ public class SpawnCoins : MonoBehaviour
     void Awake()
     {
 
-        InvokeRepeating("SpawnNext", 1f, 8f); // Cada x temps (xf) cridarem a la funció SpawnNext per spawnejar un nou objecte
+        InvokeRepeating("SpawnNext", 1f, 5f); // Cada x temps (xf) cridarem a la funció SpawnNext per spawnejar un nou objecte
 
 
     }
