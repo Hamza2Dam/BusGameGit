@@ -2650,13 +2650,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137265107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a05403716a5b2734c91cc0764e8ec565, type: 3}
+  m_Script: {fileID: 11500000, guid: aa2630d91b596014cbd55e932f5c4c56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   carril1: {fileID: 98773969}
   carril2: {fileID: 2040562976}
   carril3: {fileID: 1342392751}
-  car: {fileID: 7714257615444321550, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
+  coin: {fileID: 7714257615444321550, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
 --- !u!4 &1137265109
 Transform:
   m_ObjectHideFlags: 0
