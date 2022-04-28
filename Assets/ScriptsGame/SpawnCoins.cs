@@ -50,16 +50,16 @@ public class SpawnCoins : MonoBehaviour
 
         if (randomNumbercarril == 1)  // Si el numero random == 1 spawneja l'objecte al carril1.
         {
-            int randomcoins = Random.Range(1, 6);
-            float carril1pos = carril1.transform.position.x;
-            Groupofcoins(carril1pos, randomcoins);
-            //generate.transform.position = new Vector3(carril1.transform.position.x, 40, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
+            int randomcoins = Random.Range(1, 6); // Numero de monedes Random
+            float carril1pos = carril1.transform.position.x; // Posicio x del carril
+            Groupofcoins(carril1pos, randomcoins); // Cridem a la funcio spawncoins li enviem la posicio x del carril i el numero de monedes que volem
+          
         
 
         }
-        else if (randomNumbercarril == 2)
+        else if (randomNumbercarril == 2) // Carril2
         {
-            // generate.transform.position = new Vector3(carril2.transform.position.x, 40, 0);
+            
             int randomcoins = Random.Range(1, 6);
             float carril2pos = carril2.transform.position.x;
             Groupofcoins(carril2pos, randomcoins );
@@ -67,9 +67,9 @@ public class SpawnCoins : MonoBehaviour
 
         }
 
-        else if (randomNumbercarril == 3)
+        else if (randomNumbercarril == 3) // Carril3
         {
-            // generate.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
+          
             int randomcoins = Random.Range(1, 6);
             float carril3pos = carril3.transform.position.x;
             Groupofcoins(carril3pos , randomcoins);
@@ -84,18 +84,18 @@ public class SpawnCoins : MonoBehaviour
     {
 
        
-        int y = 40;
-        Debug.Log(coins);
+        int y = 40; // La posicio y de la moneda
+      
 
      
 
-        for (int x = 0; x < coins; x++)
+        for (int x = 0; x < coins; x++) // Bucle per spawnejar monedes
         {
-            Debug.Log("SPAWNING");
+         
             GameObject generate = Instantiate(coin); // Objecte a spawnejar (Instanciar)
-            generate.transform.position = new Vector3(carril, y, 0);
+            generate.transform.position = new Vector3(carril, y, 0); // Colocar l'objecte al carril que ens interesa i a la y que ens interesa
            
-            y++;
+            y++; // Sumem +1 a la posicio y de la moneda perque no es spawneji a sobre de la anterior
 
 
         }
