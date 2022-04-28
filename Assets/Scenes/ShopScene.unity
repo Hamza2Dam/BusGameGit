@@ -2820,7 +2820,7 @@ GameObject:
   - component: {fileID: 2014802103}
   - component: {fileID: 2014802102}
   m_Layer: 5
-  m_Name: CanvasGameOver
+  m_Name: MoneyBuy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
