@@ -42,42 +42,61 @@ public class SpawnCoins : MonoBehaviour
     }
     void SpawnNext()
     {
-        float randomNumber = Random.Range(1, 4); // Número random per escollir els carrils on spawnejar l'objecte de manera random
-        GameObject generate = Instantiate(coin); // Objecte a spawnejar (Instanciar)
-        GameObject generate2 = Instantiate(coin); // Objecte a spawnejar (Instanciar)
-        GameObject generate3 = Instantiate(coin); // Objecte a spawnejar (Instanciar)
-        GameObject generate4 = Instantiate(coin); // Objecte a spawnejar (Instanciar)
-        GameObject generate5 = Instantiate(coin); // Objecte a spawnejar (Instanciar)
+        float randomNumbercarril = Random.Range(1, 4); // Número random per escollir els carrils on spawnejar l'objecte de manera random
+        
+   
     
 
 
-        if (randomNumber == 1)  // Si el numero random == 1 spawneja l'objecte al carril1.
+        if (randomNumbercarril == 1)  // Si el numero random == 1 spawneja l'objecte al carril1.
         {
-
-            generate.transform.position = new Vector3(carril1.transform.position.x, 40, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
-            generate2.transform.position = new Vector3(carril1.transform.position.x, 41, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
-            generate3.transform.position = new Vector3(carril1.transform.position.x, 42, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
-            generate4.transform.position = new Vector3(carril1.transform.position.x, 43, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
-            generate5.transform.position = new Vector3(carril1.transform.position.x, 44, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
+            int randomcoins = Random.Range(1, 6);
+            float carril1pos = carril1.transform.position.x;
+            Groupofcoins(carril1pos, randomcoins);
+            //generate.transform.position = new Vector3(carril1.transform.position.x, 40, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
+        
 
         }
-        else if (randomNumber == 2)
+        else if (randomNumbercarril == 2)
         {
-            generate.transform.position = new Vector3(carril2.transform.position.x, 40, 0);
-            generate2.transform.position = new Vector3(carril2.transform.position.x, 41, 0);
-            generate3.transform.position = new Vector3(carril2.transform.position.x, 42, 0);
-            generate4.transform.position = new Vector3(carril2.transform.position.x, 43, 0);
-            generate5.transform.position = new Vector3(carril2.transform.position.x, 44, 0);
+            // generate.transform.position = new Vector3(carril2.transform.position.x, 40, 0);
+            int randomcoins = Random.Range(1, 6);
+            float carril2pos = carril2.transform.position.x;
+            Groupofcoins(carril2pos, randomcoins );
+
 
         }
 
-        else if (randomNumber == 3)
+        else if (randomNumbercarril == 3)
         {
-            generate.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
-            generate2.transform.position = new Vector3(carril3.transform.position.x, 41, 0);
-            generate3.transform.position = new Vector3(carril3.transform.position.x, 42, 0);
-            generate4.transform.position = new Vector3(carril3.transform.position.x, 43, 0);
-            generate5.transform.position = new Vector3(carril3.transform.position.x, 44, 0);
+            // generate.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
+            int randomcoins = Random.Range(1, 6);
+            float carril3pos = carril3.transform.position.x;
+            Groupofcoins(carril3pos , randomcoins);
+
+
+        }
+
+    }
+
+
+    public void Groupofcoins(float carril, int coins)
+    {
+
+       
+        int y = 40;
+        Debug.Log(coins);
+
+     
+
+        for (int x = 0; x < coins; x++)
+        {
+            Debug.Log("SPAWNING");
+            GameObject generate = Instantiate(coin); // Objecte a spawnejar (Instanciar)
+            generate.transform.position = new Vector3(carril, y, 0);
+           
+            y++;
+
 
         }
 
