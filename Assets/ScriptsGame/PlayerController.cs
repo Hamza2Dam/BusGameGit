@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     public GameObject SpawnMonedes;
     public GameObject timer;
 
+    public AudioSource coinssound;
+
    
 
     public GasolinaBar gasolinascript;
@@ -243,6 +245,7 @@ public class PlayerController : MonoBehaviour
         {
 
             contadorcoins++; // Sumem la moneda
+            coinssound.Play(); // So de la moneda
             coins.text = contadorcoins.ToString(); // Mostrem la suma
             Destroy(other.gameObject); // Destruim la moneda
 
