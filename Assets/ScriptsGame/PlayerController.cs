@@ -17,6 +17,10 @@ public class PlayerController : MonoBehaviour
     public GameObject SpawnMonedes;
     public GameObject timer;
 
+    public GasolinaBar barra;
+
+    public int maxbar = 100;
+
 
 
 
@@ -34,9 +38,10 @@ public class PlayerController : MonoBehaviour
     public Text finalcoins;
 
    public ScrollCarreteras speed;
+    public float tempsgasoil = 100f;
 
 
-    
+
 
 
 
@@ -74,6 +79,7 @@ public class PlayerController : MonoBehaviour
 
         Swipe();
         movementpc();
+        //Restargasolina();
       
     }
 
@@ -234,7 +240,9 @@ public class PlayerController : MonoBehaviour
         {
 
 
-            speed.scrollspeed = speed.scrollspeed + 10;
+            // speed.scrollspeed = speed.scrollspeed + 10;
+
+            sumargasolina();
         }
         else if (other.gameObject.CompareTag("coin")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
@@ -247,6 +255,20 @@ public class PlayerController : MonoBehaviour
 
 
     }
+
+    public void sumargasolina()
+    {
+        int gasolina = 30;
+        barra.SetGasoil(gasolina);
+
+    }
+
+    //void Restargasolina() 
+    //{
+    //    tempsgasoil -= Time.deltaTime; // Cada segon el temps restará 1
+        
+    //    if()
+    //}
 
 
     private void GameOverFuntion() {
