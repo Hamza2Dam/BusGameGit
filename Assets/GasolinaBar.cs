@@ -7,8 +7,8 @@ public class GasolinaBar : MonoBehaviour
 {
     public Slider slider; // Slider amb els valors de la barra
     public float deposit; // Deposit de gasolina
-    public int treuregasolina = 5; // Valor que volem restar de gasolina
-    public int sumargasolina = 25; // Valor que volem sumar de gasolina
+    public int treuregasolina = 15; // Valor que volem restar de gasolina
+    public int sumargasolina = 30; // Valor que volem sumar de gasolina
     public PlayerController playerscript; // Script del PlayerController
 
     void Start()

@@ -42,7 +42,7 @@ public class SpawnCotxes : MonoBehaviour
     }
     void SpawnNext()
     {
-        float randomNumber = Random.Range(1, 4); // Número random per escollir els carrils on spawnejar l'objecte de manera random
+        float randomNumber = Random.Range(1, 5); // Número random per escollir els carrils on spawnejar l'objecte de manera random
         GameObject generate = Instantiate(car); // Objecte a spawnejar (Instanciar)
     
 
@@ -62,6 +62,43 @@ public class SpawnCotxes : MonoBehaviour
             generate.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
 
         }
+        else if (randomNumber == 4) // 2 cotxes
+        {
+            float randomNumber2 = Random.Range(1, 4); // Número random per escollir els carrils on spawnejar l'objecte de manera random
+            
+            if(randomNumber2 == 1) 
+            {
+
+                generate.transform.position = new Vector3(carril1.transform.position.x, 40, 0);
+             
+                GameObject generate2 = Instantiate(car); // Objecte a spawnejar (Instanciar)
+
+                generate2.transform.position = new Vector3(carril2.transform.position.x, 40, 0);
+
+            }
+            else if (randomNumber2 == 2)
+            {
+                generate.transform.position = new Vector3(carril1.transform.position.x, 40, 0);
+
+                GameObject generate2 = Instantiate(car); // Objecte a spawnejar (Instanciar)
+
+                generate2.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
+
+            }
+            else if (randomNumber2 == 3)
+            {
+                generate.transform.position = new Vector3(carril2.transform.position.x, 40, 0);
+
+                GameObject generate2 = Instantiate(car); // Objecte a spawnejar (Instanciar)
+
+                generate2.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
+
+            }
+
+
+        }
+      
+        
 
     }
  
