@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public GameObject SpawnMonedes;
     public GameObject timer;
 
-    public int treuregasolina = 10;
+   
 
     public GasolinaBar gasolinascript;
    
@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
 
         Swipe();
         movementpc();
-        Restargasolina();
+       
        
 
     }
@@ -227,40 +227,29 @@ public class PlayerController : MonoBehaviour
 
         if (other.gameObject.CompareTag("car")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
-            //SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
-            //Application.Quit();
-            GameOverFuntion();
+            
+            GameOverFuntion(); // Game Over
         }
-        else if (other.gameObject.CompareTag("Limits")) // Si l'objecte amb el qual colisionem te un tag == "";
-        {
-            //SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
-            //Application.Quit();
-        }
-
-        //else if (other.gameObject.CompareTag("SpawnCotxe")) // Si l'objecte amb el qual colisionem te un tag == "";
-        //{
-        //    redcar.SetActive(true);
-        //}
-
+      
         else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
 
             if(gasolinascript.deposit < 100) // Si está ple que no sumi gasolina
             {
-                Sumargasolina(); // Sumem la gasolina
+               
+                gasolinascript.Sumargasolina(); // Cridem a la funció que suma la gasolina
 
             }
+            Destroy(other.gameObject);
             
-
-            
-            
+    
         }
         else if (other.gameObject.CompareTag("coin")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
 
-            contadorcoins++;
-            coins.text = contadorcoins.ToString();
-            Destroy(other.gameObject);
+            contadorcoins++; // Sumem la moneda
+            coins.text = contadorcoins.ToString(); // Mostrem la suma
+            Destroy(other.gameObject); // Destruim la moneda
 
         }
 
@@ -269,52 +258,17 @@ public class PlayerController : MonoBehaviour
 
    
 
-    void Restargasolina()
-    {
-       
-        
-        gasolinascript.deposit -= Time.deltaTime * treuregasolina; // Cada segon el temps restará el valor que hem asignat
-       
-
-        gasolinascript.SetGasoil(gasolinascript.deposit); // Li asignem el valor a la barra
 
 
-
-        if (gasolinascript.deposit < 0) // Si s'acaba la gasolina mors
-        {
-            
-            GameOverFuntion();
-        }
-
-    }
-
-    void Sumargasolina() 
-    {
-     
-
-            gasolinascript.deposit = gasolinascript.deposit + 20; // Li sumem 20 a la gasolina
-            
-     
-    }
-
-
-    private void GameOverFuntion() {
+    public void GameOverFuntion() {
 
         GameOver.SetActive(true); // Activem el canvas de GameOver
 
         finalcoins.text = contadorcoins.ToString() ;
 
 
-
         StopGame();// Parar tot
-        
-
-        
-        
-        
-
-
-
+      
     }
 
     private void StopGame()

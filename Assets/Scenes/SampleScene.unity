@@ -2109,7 +2109,6 @@ MonoBehaviour:
   SpawnCotxes: {fileID: 728086230}
   SpawnMonedes: {fileID: 1137265107}
   timer: {fileID: 15025169}
-  treuregasolina: 10
   gasolinascript: {fileID: 1505147191}
   swipeRange: 50
   tapRange: 10
@@ -2644,7 +2643,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 926, y: -15}
+  m_AnchoredPosition: {x: 912, y: -30}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1067684814
@@ -3250,7 +3249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 318, y: 0}
+  m_AnchoredPosition: {x: 318, y: -15}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1342392750
@@ -18667,7 +18666,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -109.70001, y: -62.400024}
+  m_AnchoredPosition: {x: -123.69998, y: -77.400024}
   m_SizeDelta: {x: 1.7999878, y: 1.8302612}
   m_Pivot: {x: 1, y: 1}
 --- !u!212 &1418617914
@@ -18835,7 +18834,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 20, y: 105}
+  m_AnchoredPosition: {x: -1, y: 90}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1505147191
@@ -18852,6 +18851,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 939971729}
   deposit: 100
+  treuregasolina: 5
+  playerscript: {fileID: 575149061}
 --- !u!1 &1508227452
 GameObject:
   m_ObjectHideFlags: 0
@@ -36396,7 +36397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145661, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.32
+      value: 26.52
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145661, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_LocalPosition.z
