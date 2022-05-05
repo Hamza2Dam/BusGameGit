@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
         Swipe();
         movementpc();
         Restargasolina();
-        Debug.Log(gasolinascript.deposit);
+       
 
     }
 
@@ -294,11 +294,7 @@ public class PlayerController : MonoBehaviour
 
             gasolinascript.deposit = gasolinascript.deposit + 20; // Li sumem 20 a la gasolina
             
-      
-
-      
-      
-    
+     
     }
 
 

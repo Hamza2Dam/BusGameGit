@@ -15,7 +15,7 @@ public class ScrollCotxe : MonoBehaviour
 
 
 
-    // each Egg would have a script like this:
+
 
     void Start()
     {

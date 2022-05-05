@@ -2178,6 +2178,7 @@ Transform:
   - {fileID: 1215122749}
   - {fileID: 728086231}
   - {fileID: 1137265109}
+  - {fileID: 1921845126}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2322,7 +2323,7 @@ RectTransform:
   m_Children:
   - {fileID: 247874589}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -28250,6 +28251,53 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1921845125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921845126}
+  - component: {fileID: 1921845127}
+  m_Layer: 0
+  m_Name: SpawnGasoil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1921845126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921845125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 608829820}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1921845127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921845125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47ab50ede52c204099172ad3b000dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carril1: {fileID: 98773969}
+  carril2: {fileID: 2040562976}
+  carril3: {fileID: 1342392751}
+  gasoil: {fileID: 9221592458458377890, guid: f85118d5247912440b5b6371cb430f94, type: 3}
 --- !u!1 &2040562975
 GameObject:
   m_ObjectHideFlags: 0
@@ -36174,75 +36222,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1001 &477763109895806086
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 477763109825364755, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: carril1
-      value: 
-      objectReference: {fileID: 98773969}
-    - target: {fileID: 477763109825364755, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: carril2
-      value: 
-      objectReference: {fileID: 2040562976}
-    - target: {fileID: 477763109825364755, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: carril3
-      value: 
-      objectReference: {fileID: 1342392751}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 55.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677161767366807569, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9221592458458377890, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-      propertyPath: m_Name
-      value: Oil can object
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f85118d5247912440b5b6371cb430f94, type: 3}
 --- !u!1001 &6269998233032568164
 PrefabInstance:
   m_ObjectHideFlags: 0
