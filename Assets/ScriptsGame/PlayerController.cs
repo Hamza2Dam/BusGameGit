@@ -17,7 +17,10 @@ public class PlayerController : MonoBehaviour
     public GameObject SpawnMonedes;
     public GameObject timer;
 
-    public GasolinaBar barra;
+    public int treuregasolina = 10;
+
+    public GasolinaBar gasolinascript;
+   
 
     //public int maxbar = 100;
 
@@ -40,7 +43,7 @@ public class PlayerController : MonoBehaviour
    public ScrollCarreteras speed;
     
     
-   public float tempsgasoil = 100f;
+    
 
 
 
@@ -82,7 +85,8 @@ public class PlayerController : MonoBehaviour
         Swipe();
         movementpc();
         Restargasolina();
-      
+        Debug.Log(gasolinascript.deposit);
+
     }
 
 
@@ -241,10 +245,15 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
 
+            if(gasolinascript.deposit < 100) // Si está ple que no sumi gasolina
+            {
+                Sumargasolina(); // Sumem la gasolina
 
-            // speed.scrollspeed = speed.scrollspeed + 10;
+            }
+            
 
-            sumargasolina();
+            
+            
         }
         else if (other.gameObject.CompareTag("coin")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
@@ -258,21 +267,38 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void sumargasolina()
-    {
-      
-        int gasolina = 20;
-        barra.SetGasoil(gasolina);
-
-    }
+   
 
     void Restargasolina()
     {
-        tempsgasoil -= Time.deltaTime; // Cada segon el temps restará 1
-        Debug.Log(tempsgasoil);
-
-        barra.SetGasoil(tempsgasoil);
+       
         
+        gasolinascript.deposit -= Time.deltaTime * treuregasolina; // Cada segon el temps restará el valor que hem asignat
+       
+
+        gasolinascript.SetGasoil(gasolinascript.deposit); // Li asignem el valor a la barra
+
+
+
+        if (gasolinascript.deposit < 0) // Si s'acaba la gasolina mors
+        {
+            
+            GameOverFuntion();
+        }
+
+    }
+
+    void Sumargasolina() 
+    {
+     
+
+            gasolinascript.deposit = gasolinascript.deposit + 20; // Li sumem 20 a la gasolina
+            
+      
+
+      
+      
+    
     }
 
 
