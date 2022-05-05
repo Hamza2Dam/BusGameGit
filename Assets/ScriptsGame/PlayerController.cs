@@ -258,7 +258,8 @@ public class PlayerController : MonoBehaviour
 
     public void sumargasolina()
     {
-        int gasolina = 30;
+      
+        int gasolina = 20;
         barra.SetGasoil(gasolina);
 
     }

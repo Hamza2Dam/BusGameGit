@@ -6,6 +6,7 @@ using UnityEngine;
 public class GasolinaBar : MonoBehaviour
 {
     public Slider slider;
+    
     // Start is called before the first frame update
     
     public void Fullbar(int gasolina) 
@@ -19,6 +20,7 @@ public class GasolinaBar : MonoBehaviour
     {
 
         slider.value = slider.value +  gasolina;
+        Debug.Log(slider.value);
     
     }
 }
