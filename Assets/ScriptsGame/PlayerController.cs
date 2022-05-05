@@ -234,12 +234,7 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
 
-            if(gasolinascript.deposit < 100) // Si está ple que no sumi gasolina
-            {
-               
-                gasolinascript.Sumargasolina(); // Cridem a la funció que suma la gasolina
-
-            }
+            gasolinascript.Sumargasolina();
             Destroy(other.gameObject);
             
     
