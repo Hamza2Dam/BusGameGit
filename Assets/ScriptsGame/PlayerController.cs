@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
     public GasolinaBar barra;
 
-    public int maxbar = 100;
+    //public int maxbar = 100;
 
 
 
@@ -38,7 +38,9 @@ public class PlayerController : MonoBehaviour
     public Text finalcoins;
 
    public ScrollCarreteras speed;
-    public float tempsgasoil = 100f;
+    
+    
+   public float tempsgasoil = 100f;
 
 
 
@@ -79,7 +81,7 @@ public class PlayerController : MonoBehaviour
 
         Swipe();
         movementpc();
-        //Restargasolina();
+        Restargasolina();
       
     }
 
@@ -264,12 +266,14 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    //void Restargasolina() 
-    //{
-    //    tempsgasoil -= Time.deltaTime; // Cada segon el temps restará 1
+    void Restargasolina()
+    {
+        tempsgasoil -= Time.deltaTime; // Cada segon el temps restará 1
+        Debug.Log(tempsgasoil);
+
+        barra.SetGasoil(tempsgasoil);
         
-    //    if()
-    //}
+    }
 
 
     private void GameOverFuntion() {

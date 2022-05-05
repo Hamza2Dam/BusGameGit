@@ -2110,7 +2110,6 @@ MonoBehaviour:
   SpawnMonedes: {fileID: 1137265107}
   timer: {fileID: 15025169}
   barra: {fileID: 1505147191}
-  maxbar: 100
   swipeRange: 50
   tapRange: 10
   coins: {fileID: 1067684814}
@@ -2493,7 +2492,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
