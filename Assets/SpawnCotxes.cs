@@ -8,12 +8,13 @@ public class SpawnCotxes : MonoBehaviour
     public Transform carril2;
     public Transform carril3;
 
-    public GameObject car;
 
- 
+    public GameObject[] car;
 
 
- 
+
+
+
     private Vector3 StartPosition; // Poscio incial
 
 
@@ -43,7 +44,7 @@ public class SpawnCotxes : MonoBehaviour
     void SpawnNext()
     {
         float randomNumber = Random.Range(1, 5); // Número random per escollir els carrils on spawnejar l'objecte de manera random
-        GameObject generate = Instantiate(car); // Objecte a spawnejar (Instanciar)
+        GameObject generate = Instantiate(car[0]); // Objecte a spawnejar (Instanciar)
     
 
         if (randomNumber == 1)  // Si el numero random == 1 spawneja l'objecte al carril1.
@@ -71,7 +72,7 @@ public class SpawnCotxes : MonoBehaviour
 
                 generate.transform.position = new Vector3(carril1.transform.position.x, 40, 0);
              
-                GameObject generate2 = Instantiate(car); // Objecte a spawnejar (Instanciar)
+                GameObject generate2 = Instantiate(car[1]); // Objecte a spawnejar (Instanciar)
 
                 generate2.transform.position = new Vector3(carril2.transform.position.x, 40, 0);
 
@@ -80,7 +81,7 @@ public class SpawnCotxes : MonoBehaviour
             {
                 generate.transform.position = new Vector3(carril1.transform.position.x, 40, 0);
 
-                GameObject generate2 = Instantiate(car); // Objecte a spawnejar (Instanciar)
+                GameObject generate2 = Instantiate(car[1]); // Objecte a spawnejar (Instanciar)
 
                 generate2.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
 
@@ -89,7 +90,7 @@ public class SpawnCotxes : MonoBehaviour
             {
                 generate.transform.position = new Vector3(carril2.transform.position.x, 40, 0);
 
-                GameObject generate2 = Instantiate(car); // Objecte a spawnejar (Instanciar)
+                GameObject generate2 = Instantiate(car[1]); // Objecte a spawnejar (Instanciar)
 
                 generate2.transform.position = new Vector3(carril3.transform.position.x, 40, 0);
 

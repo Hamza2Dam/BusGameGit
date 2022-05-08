@@ -2361,7 +2361,9 @@ MonoBehaviour:
   carril1: {fileID: 98773969}
   carril2: {fileID: 2040562976}
   carril3: {fileID: 1342392751}
-  car: {fileID: 2247370479580660169, guid: d6dd73cf739c35b43942849e243df103, type: 3}
+  car:
+  - {fileID: 2247370479580660169, guid: d6dd73cf739c35b43942849e243df103, type: 3}
+  - {fileID: 2008762866678958966, guid: d5e7df80d8824d644a398afd37303ee4, type: 3}
 --- !u!1 &739635270
 GameObject:
   m_ObjectHideFlags: 0
