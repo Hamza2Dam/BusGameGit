@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public GameObject timer;
 
     public AudioSource coinssound;
+    public AudioSource gameoversound;
+    public AudioSource gasoilsound;
 
    
 
@@ -235,7 +237,7 @@ public class PlayerController : MonoBehaviour
       
         else if (other.gameObject.CompareTag("OilSpeed")) // Si l'objecte amb el qual colisionem te un tag == "";
         {
-
+            gasoilsound.Play();
             gasolinascript.Sumargasolina();
             Destroy(other.gameObject);
             
@@ -259,6 +261,8 @@ public class PlayerController : MonoBehaviour
 
 
     public void GameOverFuntion() {
+
+        gameoversound.Play();
 
         GameOver.SetActive(true); // Activem el canvas de GameOver
 
