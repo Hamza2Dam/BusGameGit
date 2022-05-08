@@ -10,6 +10,12 @@ public class TimerScript : MonoBehaviour
     public float tiempo = 0f; // Començem el temps a 0
     public Text puntuacio;
 
+    public ScrollCarreteras speedroads;
+
+    public ScrollCotxe speedcar;
+    public ScrollCotxe speedcar2;
+    public ScrollCotxe speedcar3;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,17 +29,37 @@ public class TimerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tiempo += Time.deltaTime; // Cada segon el temps augmentará 1
-        contador.text = " " + tiempo.ToString("f0") + "m"; // Mostrem els temps/metres actualitzat cada segon
-
-        //if(tiempo <= 0) 
-        //{
-
-        //    contador.text = "0";
-        //   // fin.enabled = true;
-        //} 
-
-        puntuacio.text = "Score : " + contador.text; // Mostrem la puntuacio al final
+        tempsirecorregut();
+        Debug.Log(speedcar.speed);
+        Debug.Log(speedcar2.speed);
+        Debug.Log(speedcar3.speed);
+       
+      
         
     }
+
+    public void tempsirecorregut()
+    {
+
+        tiempo += Time.deltaTime; // Cada segon el temps augmentará 1
+
+        speedroads.scrollspeed += Time.deltaTime / 10; // la velocitat anirá aumentant
+       
+        speedcar.speed += Time.deltaTime / 10; // la velocitat anirá aumentant
+        speedcar2.speed += Time.deltaTime / 10; // la velocitat anirá aumentant
+        speedcar3.speed += Time.deltaTime / 10; // la velocitat anirá aumentant
+
+
+        
+
+        contador.text = " " + tiempo.ToString("f0") + "m"; // Mostrem els temps/metres actualitzat cada segon
+
+
+        puntuacio.text = "Score : " + contador.text; // Mostrem la puntuacio al final
+
+    }
+
+    
+
+   
 }

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6677161767366807569}
   - component: {fileID: 5307935150934564306}
   - component: {fileID: 1157457103876913427}
-  - component: {fileID: 477763109825364755}
   - component: {fileID: -2862317024690364828}
+  - component: {fileID: 2499038771632556301}
   m_Layer: 0
   m_Name: Oil can object
   m_TagString: OilSpeed
@@ -111,19 +111,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.60386044, y: 0.7501341}
   m_EdgeRadius: 0
---- !u!114 &477763109825364755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9221592458458377890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eb58ba7fd7b084187009f0e02d8e63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 4
 --- !u!50 &-2862317024690364828
 Rigidbody2D:
   serializedVersion: 4
@@ -145,3 +132,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2499038771632556301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221592458458377890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9a840253a2da045ad4998a9852db2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3

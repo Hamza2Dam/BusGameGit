@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ScrollCotxe : MonoBehaviour
 {
-    public float speed = 15f; // Velocitat del scroll
+    public float speed;// Velocitat del scroll
     private Vector3 StartPosition; // Poscio incial
 
   

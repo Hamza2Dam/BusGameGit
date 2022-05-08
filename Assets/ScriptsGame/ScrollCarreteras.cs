@@ -12,14 +12,14 @@ public class ScrollCarreteras : MonoBehaviour
 
     public GameObject map1;
     public GameObject map2;
-    public int scrollspeed;
+    public float scrollspeed;
 
     
 
     // Start is called before the first frame update
     void Start()
     {
-        scrollspeed = 5;
+        scrollspeed = 3;
 
 
     }   
