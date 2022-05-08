@@ -13,16 +13,20 @@ public class TimerScript : MonoBehaviour
     public ScrollCarreteras speedroads;
 
     public ScrollCotxe speedcar;
-    public ScrollCotxe speedcar2;
-    public ScrollCotxe speedcar3;
+    public ScrollCotxe speedoil;
+    public ScrollCotxe speedcoin;
 
 
     // Start is called before the first frame update
     void Start()
     {
         contador.text = " " + tiempo; // Mostrem la variable tiempo al textUI del joc.
-       // fin.enabled = false;
+                                      // fin.enabled = false;
 
+
+        speedcar.speed = 6; // Velocitat inicial Car
+        speedoil.speed = 3; // Velocitat inicial Oil
+        speedcoin.speed = 1; // Velocitat inicial Coin
 
     }
 
@@ -31,8 +35,8 @@ public class TimerScript : MonoBehaviour
     {
         tempsirecorregut();
         Debug.Log(speedcar.speed);
-        Debug.Log(speedcar2.speed);
-        Debug.Log(speedcar3.speed);
+        Debug.Log(speedoil.speed);
+        Debug.Log(speedcoin.speed);
        
       
         
@@ -45,9 +49,9 @@ public class TimerScript : MonoBehaviour
 
         speedroads.scrollspeed += Time.deltaTime / 10; // la velocitat anirá aumentant
        
-        speedcar.speed += Time.deltaTime / 10; // la velocitat anirá aumentant
-        speedcar2.speed += Time.deltaTime / 10; // la velocitat anirá aumentant
-        speedcar3.speed += Time.deltaTime / 10; // la velocitat anirá aumentant
+        speedcar.speed += Time.deltaTime / 15; // la velocitat anirá aumentant
+        speedoil.speed += Time.deltaTime / 15; // la velocitat anirá aumentant
+        speedcoin.speed += Time.deltaTime / 15; // la velocitat anirá aumentant
 
 
         

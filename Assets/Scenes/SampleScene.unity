@@ -157,8 +157,8 @@ MonoBehaviour:
   puntuacio: {fileID: 1410136922}
   speedroads: {fileID: 1215122750}
   speedcar: {fileID: 2030424689791233619, guid: d6dd73cf739c35b43942849e243df103, type: 3}
-  speedcar2: {fileID: 2499038771632556301, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-  speedcar3: {fileID: -5584596930641019813, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
+  speedoil: {fileID: 2499038771632556301, guid: f85118d5247912440b5b6371cb430f94, type: 3}
+  speedcoin: {fileID: -5584596930641019813, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
 --- !u!4 &15025171
 Transform:
   m_ObjectHideFlags: 0
