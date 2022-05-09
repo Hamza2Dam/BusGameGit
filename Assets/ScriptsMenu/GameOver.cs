@@ -7,26 +7,32 @@ using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
 {
-   
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    bool isPaused = false;
+    public GameObject GameOverCanvas;
 
     public void Retry() 
     {
-
         SceneManager.LoadScene("SampleScene"); // Reiniciem la partida/l'escena
+    }
 
+    public void Menu()
+    {
+        SceneManager.LoadScene("MenuPrincipal"); // Menu
+    }
 
+    public void Resume()
+    {
+        GameOverCanvas.SetActive(false);
+        Time.timeScale = 1;
+        isPaused = false;
 
     }
+    public void Pause()
+    {
+        GameOverCanvas.SetActive(true);
+        Time.timeScale = 0;
+        isPaused = true;
+
+    }
+
 }

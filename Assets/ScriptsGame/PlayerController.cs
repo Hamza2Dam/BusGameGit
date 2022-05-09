@@ -12,19 +12,18 @@ public class PlayerController : MonoBehaviour
     public Transform carril2;
     public Transform carril3;
     public GameObject redcar;
-    public GameObject GameOver;
+    public GameObject GameOverObject;
     public GameObject SpawnCotxes;
     public GameObject SpawnMonedes;
     public GameObject timer;
 
     public AudioSource coinssound;
     public AudioSource gameoversound;
-    public AudioSource gasoilsound;
-
-   
+    public AudioSource gasoilsound;   
 
     public GasolinaBar gasolinascript;
-   
+    public GameOver gameOverscript;
+
 
     //public int maxbar = 100;
 
@@ -32,6 +31,7 @@ public class PlayerController : MonoBehaviour
 
 
     private int contadorcoins;
+    private bool stopGame;
 
     private Vector2 startTouchPosition;
     private Vector2 currentPosition;
@@ -70,14 +70,12 @@ public class PlayerController : MonoBehaviour
         //ocupants = 0;
         //maxocupants = 30;
 
-
-       // speed = GetComponent<ScrollCarreteras>();
+        // speed = GetComponent<ScrollCarreteras>();
 
         rb.transform.position = new Vector3(carril2.transform.position.x, carril2.transform.position.y, 0);
         contadorcoins = 0;
-
-
-
+        stopGame = false;
+        Time.timeScale = 1;
 
 
     }
@@ -264,10 +262,9 @@ public class PlayerController : MonoBehaviour
 
         gameoversound.Play();
 
-        GameOver.SetActive(true); // Activem el canvas de GameOver
+        GameOverObject.SetActive(true); // Activem el canvas de GameOver
 
         finalcoins.text = contadorcoins.ToString() ;
-
 
         StopGame();// Parar tot
       
@@ -275,14 +272,13 @@ public class PlayerController : MonoBehaviour
 
     private void StopGame()
     {
-        speed.scrollspeed = 0; // Parem el scrolling 
+        Time.timeScale = 0;
+        stopGame = true;
 
-
-
+        //speed.scrollspeed = 0; // Parem el scrolling 
         Destroy(SpawnCotxes); // Parar Cotxes
         Destroy(SpawnMonedes);
-
-        timer.SetActive(false); // Parem el timer
+        //timer.SetActive(false); // Parem el timer
 
     }
 
