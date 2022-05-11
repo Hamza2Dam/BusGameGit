@@ -155,10 +155,11 @@ MonoBehaviour:
   contador: {fileID: 1321662281}
   tiempo: 0
   puntuacio: {fileID: 1410136922}
-  speedroads: {fileID: 1215122750}
-  speedcar: {fileID: 2030424689791233619, guid: d6dd73cf739c35b43942849e243df103, type: 3}
-  speedoil: {fileID: 2499038771632556301, guid: f85118d5247912440b5b6371cb430f94, type: 3}
-  speedcoin: {fileID: -5584596930641019813, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
+  speed:
+  - {fileID: 2247370479580660169, guid: d6dd73cf739c35b43942849e243df103, type: 3}
+  - {fileID: 2008762866678958966, guid: d5e7df80d8824d644a398afd37303ee4, type: 3}
+  - {fileID: 7714257615444321550, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}
+  - {fileID: 9221592458458377890, guid: f85118d5247912440b5b6371cb430f94, type: 3}
 --- !u!4 &15025171
 Transform:
   m_ObjectHideFlags: 0

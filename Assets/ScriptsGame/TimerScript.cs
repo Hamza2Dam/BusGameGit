@@ -10,11 +10,12 @@ public class TimerScript : MonoBehaviour
     public float tiempo = 0f; // Començem el temps a 0
     public Text puntuacio;
 
-    public ScrollCarreteras speedroads;
+    
 
-    public ScrollCotxe speedcar;
-    public ScrollCotxe speedoil;
-    public ScrollCotxe speedcoin;
+ 
+
+
+    public GameObject[] speed;
 
 
     // Start is called before the first frame update
@@ -24,9 +25,17 @@ public class TimerScript : MonoBehaviour
                                       // fin.enabled = false;
 
 
-        speedcar.speed = 6; // Velocitat inicial Car
-        speedoil.speed = 3; // Velocitat inicial Oil
-        speedcoin.speed = 1; // Velocitat inicial Coin
+        // Velocitats Inicials del scroll de cada objecte
+        speed[0].GetComponent<ScrollCotxe>().speed = 6; // Coche vermell
+        speed[1].GetComponent<ScrollCotxe>().speed = 6; // Coche blau
+        speed[2].GetComponent<ScrollCotxe>().speed = 5; // Coin
+        speed[3].GetComponent<ScrollCotxe>().speed = 5; // Oil
+
+
+        
+
+        
+
 
     }
 
@@ -34,12 +43,15 @@ public class TimerScript : MonoBehaviour
     void Update()
     {
         tempsirecorregut();
-        Debug.Log(speedcar.speed);
-        Debug.Log(speedoil.speed);
-        Debug.Log(speedcoin.speed);
+
+
        
-      
-        
+
+
+
+
+
+
     }
 
     public void tempsirecorregut()
@@ -47,11 +59,16 @@ public class TimerScript : MonoBehaviour
 
         tiempo += Time.deltaTime; // Cada segon el temps augmentará 1
 
-        speedroads.scrollspeed += Time.deltaTime / 10; // la velocitat anirá aumentant
-       
-        speedcar.speed += Time.deltaTime / 15; // la velocitat anirá aumentant
-        speedoil.speed += Time.deltaTime / 15; // la velocitat anirá aumentant
-        speedcoin.speed += Time.deltaTime / 15; // la velocitat anirá aumentant
+
+        int x = 0;
+
+        for (x=0;x<speed.Length;x++) // Recorregut per tots els objectes
+        {
+            // Sumem la velocitat segons passa el temps al scrollspeed de tots els objectes
+            speed[x].GetComponent<ScrollCotxe>().speed += Time.deltaTime / 20;
+            Debug.Log(speed[x].GetComponent<ScrollCotxe>().speed);
+
+        }
 
 
         
