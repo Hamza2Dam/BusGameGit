@@ -32,6 +32,10 @@ public class TimerScript : MonoBehaviour
         speed[3].GetComponent<ScrollCotxe>().speed = 5; // Oil
 
 
+                                                        
+
+
+
         
 
         
