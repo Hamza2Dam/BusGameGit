@@ -8,14 +8,6 @@ public class ScrollCotxe : MonoBehaviour
     public float speed;// Velocitat del scroll
     private Vector3 StartPosition; // Poscio incial
 
-  
-
-
-
-
-
-
-
 
     void Start()
     {

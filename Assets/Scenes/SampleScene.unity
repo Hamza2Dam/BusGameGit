@@ -155,7 +155,8 @@ MonoBehaviour:
   contador: {fileID: 1321662281}
   tiempo: 0
   puntuacio: {fileID: 1410136922}
-  speed:
+  velocitatmapa: {fileID: 1215122750}
+  velocitatobjectes:
   - {fileID: 2247370479580660169, guid: d6dd73cf739c35b43942849e243df103, type: 3}
   - {fileID: 2008762866678958966, guid: d5e7df80d8824d644a398afd37303ee4, type: 3}
   - {fileID: 7714257615444321550, guid: a4f81c0c4527bdf4e8b5354ca79312b3, type: 3}

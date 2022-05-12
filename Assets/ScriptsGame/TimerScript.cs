@@ -10,12 +10,9 @@ public class TimerScript : MonoBehaviour
     public float tiempo = 0f; // Començem el temps a 0
     public Text puntuacio;
 
-    
+    public ScrollCarreteras velocitatmapa;
+    public GameObject[] velocitatobjectes;
 
- 
-
-
-    public GameObject[] speed;
 
 
     // Start is called before the first frame update
@@ -24,23 +21,6 @@ public class TimerScript : MonoBehaviour
         contador.text = " " + tiempo; // Mostrem la variable tiempo al textUI del joc.
                                       // fin.enabled = false;
 
-
-        // Velocitats Inicials del scroll de cada objecte
-        speed[0].GetComponent<ScrollCotxe>().speed = 6; // Coche vermell
-        speed[1].GetComponent<ScrollCotxe>().speed = 6; // Coche blau
-        speed[2].GetComponent<ScrollCotxe>().speed = 5; // Coin
-        speed[3].GetComponent<ScrollCotxe>().speed = 5; // Oil
-
-
-                                                        
-
-
-
-        
-
-        
-
-
     }
 
     // Update is called once per frame
@@ -48,6 +28,10 @@ public class TimerScript : MonoBehaviour
     {
         tempsirecorregut();
 
+        Debug.Log("Coche vermell" + velocitatobjectes[0].GetComponent<ScrollCotxe>().speed);
+        Debug.Log("Coche blau " + velocitatobjectes[1].GetComponent<ScrollCotxe>().speed);
+        Debug.Log(" Coins " + velocitatobjectes[2].GetComponent<ScrollCotxe>().speed);
+        Debug.Log("Oil " + velocitatobjectes[3].GetComponent<ScrollCotxe>().speed);
 
        
 
@@ -65,17 +49,25 @@ public class TimerScript : MonoBehaviour
 
 
         int x = 0;
+   
 
-        for (x=0;x<speed.Length;x++) // Recorregut per tots els objectes
+        for (x = 0; x < velocitatobjectes.Length; x++) // Recorregut per tots els objectes
         {
-            // Sumem la velocitat segons passa el temps al scrollspeed de tots els objectes
-            speed[x].GetComponent<ScrollCotxe>().speed += Time.deltaTime / 20;
-            Debug.Log(speed[x].GetComponent<ScrollCotxe>().speed);
+            //Sumem la velocitat segons passa el temps al scrollspeed de tots els objectes
+
+            velocitatmapa.scrollspeed += Time.deltaTime / 100;
+
+            // La velocitat de cada objecte dependrá de la del mapa
+            velocitatobjectes[x].GetComponent<ScrollCotxe>().speed = velocitatmapa.scrollspeed ;
+           
+            Debug.Log("Velocitat mapa " + velocitatmapa.scrollspeed);
 
         }
 
+       
 
-        
+
+
 
         contador.text = " " + tiempo.ToString("f0") + "m"; // Mostrem els temps/metres actualitzat cada segon
 
