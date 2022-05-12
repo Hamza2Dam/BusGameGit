@@ -10,6 +10,8 @@ public class SpawnGasoil : MonoBehaviour
 
     public GameObject gasoil;
 
+    
+
 
 
 
@@ -50,7 +52,7 @@ public class SpawnGasoil : MonoBehaviour
 
 
 
-            generate.transform.position = new Vector3(carril1.transform.position.x, 40, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
+            generate.transform.position = new Vector3(carril1.transform.position.x, 43, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
 
 
 
@@ -60,7 +62,7 @@ public class SpawnGasoil : MonoBehaviour
 
 
 
-            generate.transform.position = new Vector3(carril2.transform.position.x, 40, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
+            generate.transform.position = new Vector3(carril2.transform.position.x, 43, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
 
 
 
@@ -72,10 +74,12 @@ public class SpawnGasoil : MonoBehaviour
 
 
 
-            generate.transform.position = new Vector3(carril3.transform.position.x, 40, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
+            generate.transform.position = new Vector3(carril3.transform.position.x, 43, 0); // Igualem la posicio x del objecte amb la del carril corresponent.
 
 
         }
 
     }
+
+ 
 }
