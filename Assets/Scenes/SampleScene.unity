@@ -2367,6 +2367,7 @@ MonoBehaviour:
   car:
   - {fileID: 2247370479580660169, guid: d6dd73cf739c35b43942849e243df103, type: 3}
   - {fileID: 2008762866678958966, guid: d5e7df80d8824d644a398afd37303ee4, type: 3}
+  - {fileID: 2182483615844020567, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
 --- !u!1 &739635270
 GameObject:
   m_ObjectHideFlags: 0
@@ -36822,63 +36823,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1001 &2246388226987789136
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 39.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960168749926746896, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2182483615844020567, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
-      propertyPath: m_Name
-      value: White van front
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b8d63d16f43b5ef4dbfbdf72bb3077c0, type: 3}
 --- !u!1001 &6269998233032568164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37017,11 +36961,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_Size.x
-      value: 1.1316512
+      value: 0.93384635
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_Size.y
-      value: 3.5850825
+      value: 3.2384543
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_Enabled
@@ -37029,11 +36973,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_Offset.x
-      value: -0.027080894
+      value: -0.02932614
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145659, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_Offset.y
-      value: 0.45552945
+      value: 0.28221536
       objectReference: {fileID: 0}
     - target: {fileID: 8854967254302145661, guid: a5910bbacf1bb2d48bfe96c7c026ec75, type: 3}
       propertyPath: m_RootOrder
