@@ -33,7 +33,9 @@ public class TimerScript : MonoBehaviour
         Debug.Log(" Coins " + velocitatobjectes[2].GetComponent<ScrollCotxe>().speed);
         Debug.Log("Oil " + velocitatobjectes[3].GetComponent<ScrollCotxe>().speed);
 
-       
+
+
+        
 
 
 
