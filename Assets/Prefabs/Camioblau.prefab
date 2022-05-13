@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7261152018449541644}
   - component: {fileID: 6618933723685538728}
   - component: {fileID: -8501324107558316639}
+  - component: {fileID: 8960052826866805131}
   m_Layer: 0
   m_Name: Camioblau
   m_TagString: car
@@ -131,3 +132,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14544252, y: 0.3497842}
   m_EdgeRadius: 0
+--- !u!114 &8960052826866805131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2182483615844020567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9a840253a2da045ad4998a9852db2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
