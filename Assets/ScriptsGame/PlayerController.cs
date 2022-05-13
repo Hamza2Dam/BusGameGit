@@ -19,10 +19,13 @@ public class PlayerController : MonoBehaviour
 
     public AudioSource coinssound;
     public AudioSource gameoversound;
-    public AudioSource gasoilsound;   
+    public AudioSource gasoilsound;
+    public AudioSource sonidojuego;
 
     public GasolinaBar gasolinascript;
     public GameOver gameOverscript;
+
+
 
 
     //public int maxbar = 100;
@@ -261,6 +264,10 @@ public class PlayerController : MonoBehaviour
     public void GameOverFuntion() {
 
         gameoversound.Play();
+
+        sonidojuego.Stop();
+
+
 
         GameOverObject.SetActive(true); // Activem el canvas de GameOver
 

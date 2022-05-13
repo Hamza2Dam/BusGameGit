@@ -47,7 +47,7 @@ public class TimerScript : MonoBehaviour
     public void tempsirecorregut()
     {
 
-        tiempo += Time.deltaTime; // Cada segon el temps augmentará 1
+        tiempo += Time.deltaTime * 2; // Cada segon el temps augmentará 1
 
 
         int x = 0;
